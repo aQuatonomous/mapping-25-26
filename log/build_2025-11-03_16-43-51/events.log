@@ -1,0 +1,379 @@
+[0.000000] (-) TimerEvent: {}
+[0.001805] (my_lidar_pkg) JobQueued: {'identifier': 'my_lidar_pkg', 'dependencies': OrderedDict()}
+[0.002220] (pointcloud_filters) JobQueued: {'identifier': 'pointcloud_filters', 'dependencies': OrderedDict()}
+[0.002551] (ros_numpy) JobQueued: {'identifier': 'ros_numpy', 'dependencies': OrderedDict()}
+[0.002676] (unitree_lidar_ros2) JobQueued: {'identifier': 'unitree_lidar_ros2', 'dependencies': OrderedDict()}
+[0.002909] (unitree_lidar_sdk) JobQueued: {'identifier': 'unitree_lidar_sdk', 'dependencies': OrderedDict()}
+[0.003016] (my_lidar_pkg) JobStarted: {'identifier': 'my_lidar_pkg'}
+[0.018171] (pointcloud_filters) JobStarted: {'identifier': 'pointcloud_filters'}
+[0.026985] (ros_numpy) JobStarted: {'identifier': 'ros_numpy'}
+[0.035214] (unitree_lidar_ros2) JobStarted: {'identifier': 'unitree_lidar_ros2'}
+[0.043920] (unitree_lidar_sdk) JobStarted: {'identifier': 'unitree_lidar_sdk'}
+[0.058233] (my_lidar_pkg) JobProgress: {'identifier': 'my_lidar_pkg', 'progress': 'cmake'}
+[0.059554] (my_lidar_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/jacob/ros2_ws/src/my_lidar_pkg', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/jacob/ros2_ws/install/my_lidar_pkg'], 'cwd': '/home/jacob/ros2_ws/build/my_lidar_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jacob'), ('SSH_CLIENT', '100.70.227.125 59178 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jacob/ros2_ws/install/pointcloud_filters/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jacob'), ('OLDPWD', '/home/jacob/ros2_ws/src'), ('SSH_TTY', '/dev/pts/8'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLCON_PREFIX_PATH', '/home/jacob/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jacob'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1632'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jacob/ros2_ws/install/pointcloud_filters:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jacob/ros2_ws/build/my_lidar_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '100.70.227.125 59178 100.123.76.44 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jacob/ros2_ws/install/pointcloud_filters/local/lib/python3.10/dist-packages:/home/jacob/ros2_ws/install/pointcloud_filters/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jacob/ros2_ws/install/pointcloud_filters')]), 'shell': False}
+[0.069225] (pointcloud_filters) JobProgress: {'identifier': 'pointcloud_filters', 'progress': 'cmake'}
+[0.070793] (pointcloud_filters) JobProgress: {'identifier': 'pointcloud_filters', 'progress': 'build'}
+[0.072400] (pointcloud_filters) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jacob/ros2_ws/build/pointcloud_filters', '--', '-j6', '-l6'], 'cwd': '/home/jacob/ros2_ws/build/pointcloud_filters', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jacob'), ('SSH_CLIENT', '100.70.227.125 59178 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jacob/ros2_ws/install/pointcloud_filters/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jacob'), ('OLDPWD', '/home/jacob/ros2_ws/src'), ('SSH_TTY', '/dev/pts/8'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLCON_PREFIX_PATH', '/home/jacob/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jacob'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1632'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jacob/ros2_ws/install/pointcloud_filters:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jacob/ros2_ws/build/pointcloud_filters'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '100.70.227.125 59178 100.123.76.44 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jacob/ros2_ws/install/pointcloud_filters/local/lib/python3.10/dist-packages:/home/jacob/ros2_ws/install/pointcloud_filters/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jacob/ros2_ws/install/pointcloud_filters:/opt/ros/humble')]), 'shell': False}
+[0.076558] (ros_numpy) JobProgress: {'identifier': 'ros_numpy', 'progress': 'cmake'}
+[0.077760] (ros_numpy) Command: {'cmd': ['/usr/bin/cmake', '/home/jacob/ros2_ws/src/ros_numpy', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/jacob/ros2_ws/install/ros_numpy'], 'cwd': '/home/jacob/ros2_ws/build/ros_numpy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jacob'), ('SSH_CLIENT', '100.70.227.125 59178 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jacob/ros2_ws/install/pointcloud_filters/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jacob'), ('OLDPWD', '/home/jacob/ros2_ws/src'), ('SSH_TTY', '/dev/pts/8'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLCON_PREFIX_PATH', '/home/jacob/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jacob'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1632'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jacob/ros2_ws/install/pointcloud_filters:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jacob/ros2_ws/build/ros_numpy'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '100.70.227.125 59178 100.123.76.44 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jacob/ros2_ws/install/pointcloud_filters/local/lib/python3.10/dist-packages:/home/jacob/ros2_ws/install/pointcloud_filters/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jacob/ros2_ws/install/pointcloud_filters')]), 'shell': False}
+[0.081527] (unitree_lidar_ros2) JobProgress: {'identifier': 'unitree_lidar_ros2', 'progress': 'cmake'}
+[0.082559] (unitree_lidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/jacob/ros2_ws/src/unilidar_sdk/unitree_lidar_ros2/src/unitree_lidar_ros2', '-DCMAKE_INSTALL_PREFIX=/home/jacob/ros2_ws/install/unitree_lidar_ros2'], 'cwd': '/home/jacob/ros2_ws/build/unitree_lidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jacob'), ('SSH_CLIENT', '100.70.227.125 59178 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jacob/ros2_ws/install/pointcloud_filters/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jacob'), ('OLDPWD', '/home/jacob/ros2_ws/src'), ('SSH_TTY', '/dev/pts/8'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLCON_PREFIX_PATH', '/home/jacob/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jacob'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1632'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jacob/ros2_ws/install/pointcloud_filters:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jacob/ros2_ws/build/unitree_lidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '100.70.227.125 59178 100.123.76.44 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jacob/ros2_ws/install/pointcloud_filters/local/lib/python3.10/dist-packages:/home/jacob/ros2_ws/install/pointcloud_filters/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jacob/ros2_ws/install/pointcloud_filters:/opt/ros/humble')]), 'shell': False}
+[0.093645] (unitree_lidar_sdk) JobProgress: {'identifier': 'unitree_lidar_sdk', 'progress': 'cmake'}
+[0.100632] (-) TimerEvent: {}
+[0.103059] (unitree_lidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '/home/jacob/ros2_ws/src/unilidar_sdk/unitree_lidar_sdk', '-DCMAKE_INSTALL_PREFIX=/home/jacob/ros2_ws/install/unitree_lidar_sdk'], 'cwd': '/home/jacob/ros2_ws/build/unitree_lidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jacob'), ('SSH_CLIENT', '100.70.227.125 59178 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jacob/ros2_ws/install/pointcloud_filters/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jacob'), ('OLDPWD', '/home/jacob/ros2_ws/src'), ('SSH_TTY', '/dev/pts/8'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLCON_PREFIX_PATH', '/home/jacob/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jacob'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1632'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jacob/ros2_ws/install/pointcloud_filters:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jacob/ros2_ws/build/unitree_lidar_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '100.70.227.125 59178 100.123.76.44 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jacob/ros2_ws/install/pointcloud_filters/local/lib/python3.10/dist-packages:/home/jacob/ros2_ws/install/pointcloud_filters/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jacob/ros2_ws/install/pointcloud_filters')]), 'shell': False}
+[0.129462] (ros_numpy) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.130309] (ros_numpy) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.130617] (ros_numpy) StderrLine: {'line': b'  CMake.\n'}
+[0.130797] (ros_numpy) StderrLine: {'line': b'\n'}
+[0.131252] (ros_numpy) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.131478] (ros_numpy) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.131648] (ros_numpy) StderrLine: {'line': b'\n'}
+[0.131799] (ros_numpy) StderrLine: {'line': b'\x1b[0m\n'}
+[0.186614] (pointcloud_filters) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.201852] (-) TimerEvent: {}
+[0.286108] (unitree_lidar_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.287573] (ros_numpy) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.293476] (my_lidar_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.294395] (unitree_lidar_sdk) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.302061] (-) TimerEvent: {}
+[0.403015] (-) TimerEvent: {}
+[0.452905] (unitree_lidar_sdk) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.459474] (my_lidar_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.465882] (unitree_lidar_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.473830] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.485559] (ros_numpy) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.488972] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500536] (my_lidar_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.503937] (-) TimerEvent: {}
+[0.522920] (ros_numpy) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.598688] (pointcloud_filters) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.603060] (pointcloud_filters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.604033] (-) TimerEvent: {}
+[0.610089] (pointcloud_filters) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.694813] (pointcloud_filters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.704411] (-) TimerEvent: {}
+[0.733008] (ros_numpy) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.743708] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.745455] (my_lidar_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.748852] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.754903] (ros_numpy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.755761] (ros_numpy) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.757252] (ros_numpy) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.758275] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.758884] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.759823] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.761719] (pointcloud_filters) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.767630] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.769080] (ros_numpy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.769623] (my_lidar_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.770221] (my_lidar_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.771431] (my_lidar_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.772742] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.775047] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.777207] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.783802] (my_lidar_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.788755] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.804761] (-) TimerEvent: {}
+[0.905954] (-) TimerEvent: {}
+[1.008576] (-) TimerEvent: {}
+[1.026556] (ros_numpy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.045140] (ros_numpy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.046490] (ros_numpy) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.046910] (ros_numpy) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.075360] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.079776] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.083270] (my_lidar_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.084525] (ros_numpy) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:7 (find_package):\n'}
+[1.085017] (ros_numpy) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.085224] (ros_numpy) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[1.085395] (ros_numpy) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.085558] (ros_numpy) StderrLine: {'line': b'\n'}
+[1.085714] (ros_numpy) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[1.085872] (ros_numpy) StderrLine: {'line': b'  of the following names:\n'}
+[1.086020] (ros_numpy) StderrLine: {'line': b'\n'}
+[1.086158] (ros_numpy) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[1.086304] (ros_numpy) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[1.086445] (ros_numpy) StderrLine: {'line': b'\n'}
+[1.086582] (ros_numpy) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[1.086724] (ros_numpy) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[1.088383] (ros_numpy) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[1.088620] (ros_numpy) StderrLine: {'line': b'  installed.\n'}
+[1.088924] (ros_numpy) StderrLine: {'line': b'\n'}
+[1.089086] (ros_numpy) StderrLine: {'line': b'\x1b[0m\n'}
+[1.089236] (ros_numpy) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.089422] (ros_numpy) StdoutLine: {'line': b'See also "/home/jacob/ros2_ws/build/ros_numpy/CMakeFiles/CMakeOutput.log".\n'}
+[1.100744] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.102045] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.103217] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.109882] (ros_numpy) CommandEnded: {'returncode': 1}
+[1.111387] (-) TimerEvent: {}
+[1.111860] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.112179] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.112363] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.112541] (my_lidar_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.113964] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.114242] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.117246] (my_lidar_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.125726] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Generating done\n'}
+[1.126522] (my_lidar_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.132271] (unitree_lidar_sdk) StdoutLine: {'line': b'-- Build files have been written to: /home/jacob/ros2_ws/build/unitree_lidar_sdk\n'}
+[1.133010] (my_lidar_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.147192] (unitree_lidar_sdk) CommandEnded: {'returncode': 0}
+[1.148418] (unitree_lidar_sdk) JobProgress: {'identifier': 'unitree_lidar_sdk', 'progress': 'build'}
+[1.148510] (unitree_lidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jacob/ros2_ws/build/unitree_lidar_sdk', '--', '-j6', '-l6'], 'cwd': '/home/jacob/ros2_ws/build/unitree_lidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jacob'), ('SSH_CLIENT', '100.70.227.125 59178 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jacob/ros2_ws/install/pointcloud_filters/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jacob'), ('OLDPWD', '/home/jacob/ros2_ws/src'), ('SSH_TTY', '/dev/pts/8'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLCON_PREFIX_PATH', '/home/jacob/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jacob'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1632'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jacob/ros2_ws/install/pointcloud_filters:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jacob/ros2_ws/build/unitree_lidar_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '100.70.227.125 59178 100.123.76.44 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jacob/ros2_ws/install/pointcloud_filters/local/lib/python3.10/dist-packages:/home/jacob/ros2_ws/install/pointcloud_filters/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jacob/ros2_ws/install/pointcloud_filters')]), 'shell': False}
+[1.178122] (ros_numpy) JobEnded: {'identifier': 'ros_numpy', 'rc': 1}
+[1.211686] (-) TimerEvent: {}
+[1.309230] (unitree_lidar_sdk) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/unilidar_publisher_udp.dir/examples/unilidar_publisher_udp.cpp.o\x1b[0m\n'}
+[1.311844] (-) TimerEvent: {}
+[1.314237] (unitree_lidar_sdk) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/example_lidar_udp.dir/examples/example_lidar_udp.cpp.o\x1b[0m\n'}
+[1.315576] (unitree_lidar_sdk) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.o\x1b[0m\n'}
+[1.342435] (unitree_lidar_sdk) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/unilidar_subscriber_udp.dir/examples/unilidar_subscriber_udp.cpp.o\x1b[0m\n'}
+[1.412106] (-) TimerEvent: {}
+[1.513188] (-) TimerEvent: {}
+[1.614322] (-) TimerEvent: {}
+[1.715455] (-) TimerEvent: {}
+[1.784279] (my_lidar_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.799155] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.815591] (-) TimerEvent: {}
+[1.916324] (-) TimerEvent: {}
+[2.020086] (-) TimerEvent: {}
+[2.073807] (pointcloud_filters) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.120456] (-) TimerEvent: {}
+[2.171254] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.220734] (-) TimerEvent: {}
+[2.321870] (-) TimerEvent: {}
+[2.372561] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.402763] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.420652] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.422315] (-) TimerEvent: {}
+[2.449483] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.497277] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.522627] (-) TimerEvent: {}
+[2.623790] (-) TimerEvent: {}
+[2.725019] (-) TimerEvent: {}
+[2.805860] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.818818] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.825318] (-) TimerEvent: {}
+[2.927397] (-) TimerEvent: {}
+[3.029303] (-) TimerEvent: {}
+[3.054252] (unitree_lidar_sdk) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable /home/jacob/ros2_ws/src/unilidar_sdk/unitree_lidar_sdk/bin/example_lidar\x1b[0m\n'}
+[3.130252] (-) TimerEvent: {}
+[3.146321] (my_lidar_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.183603] (my_lidar_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[3.195471] (my_lidar_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[3.196358] (my_lidar_pkg) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[3.196587] (my_lidar_pkg) StderrLine: {'line': b'\n'}
+[3.196815] (my_lidar_pkg) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[3.196981] (my_lidar_pkg) StderrLine: {'line': b'\n'}
+[3.197134] (my_lidar_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[3.198219] (unitree_lidar_sdk) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable /home/jacob/ros2_ws/src/unilidar_sdk/unitree_lidar_sdk/bin/unilidar_publisher_udp\x1b[0m\n'}
+[3.206134] (my_lidar_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/jacob/ros2_ws/build/my_lidar_pkg\n'}
+[3.230275] (my_lidar_pkg) JobEnded: {'identifier': 'my_lidar_pkg', 'rc': 'SIGINT'}
+[3.233790] (-) TimerEvent: {}
+[3.269667] (pointcloud_filters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.284406] (unitree_lidar_sdk) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable /home/jacob/ros2_ws/src/unilidar_sdk/unitree_lidar_sdk/bin/unilidar_subscriber_udp\x1b[0m\n'}
+[3.325643] (unitree_lidar_sdk) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable /home/jacob/ros2_ws/src/unilidar_sdk/unitree_lidar_sdk/bin/example_lidar_udp\x1b[0m\n'}
+[3.334161] (-) TimerEvent: {}
+[3.392974] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.441403] (-) TimerEvent: {}
+[3.494103] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.522145] (unitree_lidar_sdk) StdoutLine: {'line': b'[100%] Built target example_lidar\n'}
+[3.532152] (unitree_lidar_sdk) StdoutLine: {'line': b'[100%] Built target unilidar_publisher_udp\n'}
+[3.541674] (-) TimerEvent: {}
+[3.626011] (unitree_lidar_sdk) StdoutLine: {'line': b'[100%] Built target unilidar_subscriber_udp\n'}
+[3.636555] (unitree_lidar_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.642583] (-) TimerEvent: {}
+[3.673770] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.716983] (unitree_lidar_sdk) StdoutLine: {'line': b'[100%] Built target example_lidar_udp\n'}
+[3.742867] (-) TimerEvent: {}
+[3.758758] (unitree_lidar_sdk) JobEnded: {'identifier': 'unitree_lidar_sdk', 'rc': 'SIGINT'}
+[3.843086] (-) TimerEvent: {}
+[3.903218] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.904809] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.943377] (-) TimerEvent: {}
+[4.050608] (-) TimerEvent: {}
+[4.150450] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.151254] (-) TimerEvent: {}
+[4.154803] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.251528] (-) TimerEvent: {}
+[4.329658] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.351754] (-) TimerEvent: {}
+[4.376510] (pointcloud_filters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.407317] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[4.441396] (pointcloud_filters) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.451979] (-) TimerEvent: {}
+[4.508859] (pointcloud_filters) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.509750] (pointcloud_filters) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.510040] (pointcloud_filters) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[4.552300] (-) TimerEvent: {}
+[4.560241] (unitree_lidar_ros2) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[4.651999] (unitree_lidar_ros2) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[4.652901] (-) TimerEvent: {}
+[4.687568] (pointcloud_filters) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.753255] (-) TimerEvent: {}
+[4.810478] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[4.811260] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[4.836538] (pointcloud_filters) StdoutLine: {'line': b'-- Generating done\n'}
+[4.853567] (-) TimerEvent: {}
+[4.867370] (pointcloud_filters) StdoutLine: {'line': b'-- Build files have been written to: /home/jacob/ros2_ws/build/pointcloud_filters\n'}
+[4.953854] (-) TimerEvent: {}
+[5.022668] (unitree_lidar_ros2) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[5.026435] (pointcloud_filters) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pointcloud_filters__rosidl_generator_c\x1b[0m\n'}
+[5.054146] (-) TimerEvent: {}
+[5.068150] (pointcloud_filters) StdoutLine: {'line': b'[  3%] Built target pointcloud_filters__cpp\n'}
+[5.078361] (pointcloud_filters) StdoutLine: {'line': b'[ 12%] Built target pointcloud_filters__rosidl_generator_c\n'}
+[5.082335] (unitree_lidar_ros2) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[5.113966] (pointcloud_filters) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_pointcloud_filters\n'}
+[5.133485] (pointcloud_filters) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pointcloud_filters__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.136875] (pointcloud_filters) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pointcloud_filters__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.153585] (pointcloud_filters) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pointcloud_filters__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.154365] (-) TimerEvent: {}
+[5.171810] (pointcloud_filters) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pointcloud_filters__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[5.176474] (pointcloud_filters) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pointcloud_filters__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[5.230417] (pointcloud_filters) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pointcloud_filters__rosidl_typesupport_c\x1b[0m\n'}
+[5.235766] (pointcloud_filters) StdoutLine: {'line': b'[ 22%] Built target pointcloud_filters__rosidl_typesupport_fastrtps_cpp\n'}
+[5.247061] (pointcloud_filters) StdoutLine: {'line': b'[ 32%] Built target pointcloud_filters__rosidl_typesupport_introspection_cpp\n'}
+[5.256786] (-) TimerEvent: {}
+[5.269268] (pointcloud_filters) StdoutLine: {'line': b'[ 41%] Built target pointcloud_filters__rosidl_typesupport_introspection_c\n'}
+[5.288585] (pointcloud_filters) StdoutLine: {'line': b'[ 51%] Built target pointcloud_filters__rosidl_typesupport_fastrtps_c\n'}
+[5.289556] (pointcloud_filters) StdoutLine: {'line': b'[ 61%] Built target pointcloud_filters__rosidl_typesupport_cpp\n'}
+[5.321711] (pointcloud_filters) StdoutLine: {'line': b'[ 70%] Built target pointcloud_filters__rosidl_typesupport_c\n'}
+[5.339277] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  \n'}
+[5.341668] (unitree_lidar_ros2) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)\n'}
+[5.356956] (-) TimerEvent: {}
+[5.436559] (pointcloud_filters) StdoutLine: {'line': b'[ 70%] Built target pointcloud_filters\n'}
+[5.457204] (-) TimerEvent: {}
+[5.535692] (pointcloud_filters) StdoutLine: {'line': b'[ 74%] Built target pointcloud_filters__py\n'}
+[5.557445] (-) TimerEvent: {}
+[5.571825] (pointcloud_filters) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pointcloud_filters__rosidl_generator_py\x1b[0m\n'}
+[5.627369] (pointcloud_filters) StdoutLine: {'line': b'[ 80%] Built target pointcloud_filters__rosidl_generator_py\n'}
+[5.657688] (-) TimerEvent: {}
+[5.659286] (pointcloud_filters) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pointcloud_filters__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[5.664990] (pointcloud_filters) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pointcloud_filters__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[5.665720] (pointcloud_filters) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pointcloud_filters__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[5.711464] (pointcloud_filters) StdoutLine: {'line': b'[ 90%] Built target pointcloud_filters__rosidl_typesupport_c__pyext\n'}
+[5.713081] (pointcloud_filters) StdoutLine: {'line': b'[ 93%] Built target pointcloud_filters__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.743406] (pointcloud_filters) StdoutLine: {'line': b'[100%] Built target pointcloud_filters__rosidl_typesupport_introspection_c__pyext\n'}
+[5.757921] (-) TimerEvent: {}
+[5.858941] (-) TimerEvent: {}
+[5.959991] (-) TimerEvent: {}
+[6.061637] (-) TimerEvent: {}
+[6.109484] (pointcloud_filters) StdoutLine: {'line': b'running egg_info\n'}
+[6.112903] (pointcloud_filters) StdoutLine: {'line': b'writing pointcloud_filters.egg-info/PKG-INFO\n'}
+[6.115171] (pointcloud_filters) StdoutLine: {'line': b'writing dependency_links to pointcloud_filters.egg-info/dependency_links.txt\n'}
+[6.116999] (pointcloud_filters) StdoutLine: {'line': b'writing top-level names to pointcloud_filters.egg-info/top_level.txt\n'}
+[6.127630] (pointcloud_filters) StdoutLine: {'line': b"reading manifest file 'pointcloud_filters.egg-info/SOURCES.txt'\n"}
+[6.128832] (pointcloud_filters) StdoutLine: {'line': b"writing manifest file 'pointcloud_filters.egg-info/SOURCES.txt'\n"}
+[6.161918] (-) TimerEvent: {}
+[6.257103] (pointcloud_filters) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_pointcloud_filters_egg\n'}
+[6.262116] (-) TimerEvent: {}
+[6.316553] (pointcloud_filters) JobEnded: {'identifier': 'pointcloud_filters', 'rc': 'SIGINT'}
+[6.362438] (-) TimerEvent: {}
+[6.463595] (-) TimerEvent: {}
+[6.564769] (-) TimerEvent: {}
+[6.665963] (-) TimerEvent: {}
+[6.767181] (-) TimerEvent: {}
+[6.868359] (-) TimerEvent: {}
+[6.970822] (-) TimerEvent: {}
+[7.072153] (-) TimerEvent: {}
+[7.173902] (-) TimerEvent: {}
+[7.275650] (-) TimerEvent: {}
+[7.376826] (-) TimerEvent: {}
+[7.478010] (-) TimerEvent: {}
+[7.579168] (-) TimerEvent: {}
+[7.680294] (-) TimerEvent: {}
+[7.781434] (-) TimerEvent: {}
+[7.882641] (-) TimerEvent: {}
+[7.983828] (-) TimerEvent: {}
+[8.085377] (-) TimerEvent: {}
+[8.186568] (-) TimerEvent: {}
+[8.287768] (-) TimerEvent: {}
+[8.389582] (-) TimerEvent: {}
+[8.490782] (-) TimerEvent: {}
+[8.593895] (-) TimerEvent: {}
+[8.696778] (-) TimerEvent: {}
+[8.798931] (-) TimerEvent: {}
+[8.901201] (-) TimerEvent: {}
+[8.909164] (unitree_lidar_ros2) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[8.979942] (unitree_lidar_ros2) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[9.001502] (-) TimerEvent: {}
+[9.089149] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  \n'}
+[9.096948] (unitree_lidar_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[9.101612] (-) TimerEvent: {}
+[9.202552] (-) TimerEvent: {}
+[9.303746] (-) TimerEvent: {}
+[9.404973] (-) TimerEvent: {}
+[9.432625] (unitree_lidar_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[9.505260] (-) TimerEvent: {}
+[9.606424] (-) TimerEvent: {}
+[9.707620] (-) TimerEvent: {}
+[9.808862] (-) TimerEvent: {}
+[9.910064] (-) TimerEvent: {}
+[10.010600] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[10.011543] (-) TimerEvent: {}
+[10.044695] (unitree_lidar_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[10.083171] (unitree_lidar_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[10.112043] (-) TimerEvent: {}
+[10.214316] (-) TimerEvent: {}
+[10.316359] (-) TimerEvent: {}
+[10.418227] (-) TimerEvent: {}
+[10.524007] (-) TimerEvent: {}
+[10.599841] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[10.624350] (-) TimerEvent: {}
+[10.726054] (-) TimerEvent: {}
+[10.827715] (-) TimerEvent: {}
+[10.929416] (-) TimerEvent: {}
+[11.031138] (-) TimerEvent: {}
+[11.095557] (unitree_lidar_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[11.131438] (-) TimerEvent: {}
+[11.233566] (-) TimerEvent: {}
+[11.334718] (-) TimerEvent: {}
+[11.435875] (-) TimerEvent: {}
+[11.467426] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  \n'}
+[11.469700] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  \n'}
+[11.475847] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  \n'}
+[11.477541] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  \n'}
+[11.481040] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[11.482993] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  \n'}
+[11.486483] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[11.487390] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[11.489425] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  \n'}
+[11.492081] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  \n'}
+[11.494167] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  \n'}
+[11.496077] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  \n'}
+[11.498283] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  \n'}
+[11.500419] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  \n'}
+[11.502441] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  \n'}
+[11.504549] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  \n'}
+[11.506703] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  \n'}
+[11.508694] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  \n'}
+[11.510934] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  \n'}
+[11.512867] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  \n'}
+[11.514693] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[11.515449] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[11.517648] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[11.519856] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  \n'}
+[11.522215] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  \n'}
+[11.526942] (unitree_lidar_ros2) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:23 (find_package):\n'}
+[11.527377] (unitree_lidar_ros2) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[11.527548] (unitree_lidar_ros2) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[11.527699] (unitree_lidar_ros2) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[11.527844] (unitree_lidar_ros2) StderrLine: {'line': b'\n'}
+[11.527987] (unitree_lidar_ros2) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[11.528127] (unitree_lidar_ros2) StderrLine: {'line': b'\n'}
+[11.528262] (unitree_lidar_ros2) StderrLine: {'line': b'    /usr\n'}
+[11.528397] (unitree_lidar_ros2) StderrLine: {'line': b'\n'}
+[11.528530] (unitree_lidar_ros2) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[11.528692] (unitree_lidar_ros2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[11.528887] (unitree_lidar_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[11.535916] (-) TimerEvent: {}
+[11.636891] (-) TimerEvent: {}
+[11.738035] (-) TimerEvent: {}
+[11.748857] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.838095] (-) TimerEvent: {}
+[11.929710] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[11.938251] (-) TimerEvent: {}
+[11.963777] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/jacob/ros2_ws/build/unitree_lidar_ros2\n'}
+[12.038578] (-) TimerEvent: {}
+[12.042775] (unitree_lidar_ros2) JobEnded: {'identifier': 'unitree_lidar_ros2', 'rc': 'SIGINT'}
+[12.056418] (-) EventReactorShutdown: {}
