@@ -1,3 +1,7 @@
+msg/BuoyDetection.idl
+msg/BuoyDetection.msg
+msg/BuoyDetectionArray.idl
+msg/BuoyDetectionArray.msg
 srv/GetCloudWindow.idl
 srv/GetCloudWindow.srv
 srv/GetCloudWindow_Request.msg

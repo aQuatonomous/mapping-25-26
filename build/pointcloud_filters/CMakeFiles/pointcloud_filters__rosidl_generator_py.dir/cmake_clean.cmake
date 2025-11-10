@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/pointcloud_filters__rosidl_generator_py.dir/rosidl_generator_py/pointcloud_filters/msg/_buoy_detection_array_s.c.o"
+  "CMakeFiles/pointcloud_filters__rosidl_generator_py.dir/rosidl_generator_py/pointcloud_filters/msg/_buoy_detection_array_s.c.o.d"
+  "CMakeFiles/pointcloud_filters__rosidl_generator_py.dir/rosidl_generator_py/pointcloud_filters/msg/_buoy_detection_s.c.o"
+  "CMakeFiles/pointcloud_filters__rosidl_generator_py.dir/rosidl_generator_py/pointcloud_filters/msg/_buoy_detection_s.c.o.d"
   "CMakeFiles/pointcloud_filters__rosidl_generator_py.dir/rosidl_generator_py/pointcloud_filters/srv/_get_cloud_window_s.c.o"
   "CMakeFiles/pointcloud_filters__rosidl_generator_py.dir/rosidl_generator_py/pointcloud_filters/srv/_get_cloud_window_s.c.o.d"
   "rosidl_generator_py/pointcloud_filters/libpointcloud_filters__rosidl_generator_py.pdb"

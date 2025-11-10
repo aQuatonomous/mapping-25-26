@@ -1,1 +1,3 @@
 /home/jacob/ros2_ws/build/pointcloud_filters/rosidl_adapter/pointcloud_filters:srv/GetCloudWindow.idl
+/home/jacob/ros2_ws/build/pointcloud_filters/rosidl_adapter/pointcloud_filters:msg/BuoyDetection.idl
+/home/jacob/ros2_ws/build/pointcloud_filters/rosidl_adapter/pointcloud_filters:msg/BuoyDetectionArray.idl

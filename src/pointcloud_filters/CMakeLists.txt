@@ -7,9 +7,11 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 
-# Generate service interfaces
+# Generate service and message interfaces
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetCloudWindow.srv"
+  "msg/BuoyDetection.msg"
+  "msg/BuoyDetectionArray.msg"
   DEPENDENCIES sensor_msgs std_msgs
 )
 
@@ -18,6 +20,13 @@ install(PROGRAMS
   pointcloud_filters/lidar_range_filter.py
   DESTINATION lib/${PROJECT_NAME}
   RENAME lidar_range_filter
+)
+
+# Install buoy_detector separately (can't have multiple files with RENAME)
+install(PROGRAMS
+  pointcloud_filters/buoy_detector.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME buoy_detector
 )
 
 # Install Python module (without ament_python_install_package to avoid duplication)

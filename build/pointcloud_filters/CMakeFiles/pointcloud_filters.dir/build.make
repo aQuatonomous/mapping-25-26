@@ -69,6 +69,8 @@ include CMakeFiles/pointcloud_filters.dir/progress.make
 CMakeFiles/pointcloud_filters: /home/jacob/ros2_ws/src/pointcloud_filters/srv/GetCloudWindow.srv
 CMakeFiles/pointcloud_filters: rosidl_cmake/srv/GetCloudWindow_Request.msg
 CMakeFiles/pointcloud_filters: rosidl_cmake/srv/GetCloudWindow_Response.msg
+CMakeFiles/pointcloud_filters: /home/jacob/ros2_ws/src/pointcloud_filters/msg/BuoyDetection.msg
+CMakeFiles/pointcloud_filters: /home/jacob/ros2_ws/src/pointcloud_filters/msg/BuoyDetectionArray.msg
 CMakeFiles/pointcloud_filters: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
 CMakeFiles/pointcloud_filters: /opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl
 CMakeFiles/pointcloud_filters: /opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl

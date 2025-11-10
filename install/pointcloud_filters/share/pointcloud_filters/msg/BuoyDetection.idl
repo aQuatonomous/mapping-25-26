@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pointcloud_filters/msg/BuoyDetection.msg
+// generated code does not contain a copyright notice
+
+
+module pointcloud_filters {
+  module msg {
+    @verbatim (language="comment", text=
+      "Single buoy detection (polar coordinates)")
+    struct BuoyDetection {
+      @verbatim (language="comment", text=
+        "Distance from boat to buoy (meters)")
+      float range;
+
+      @verbatim (language="comment", text=
+        "Angle from boat's forward axis (radians, -π to +π, CCW per REP 103)")
+      float bearing;
+
+      @verbatim (language="comment", text=
+        "Average height above base_link (meters)")
+      float z_mean;
+
+      @verbatim (language="comment", text=
+        "Number of LiDAR points in cluster")
+      uint32 num_points;
+
+      @verbatim (language="comment", text=
+        "Bounding box diagonal (meters)")
+      float lateral_extent;
+
+      @verbatim (language="comment", text=
+        "Depth toward/away from boat (meters)")
+      float radial_extent;
+
+      @verbatim (language="comment", text=
+        "Detection quality score (0.0 to 1.0)")
+      float confidence;
+    };
+  };
+};

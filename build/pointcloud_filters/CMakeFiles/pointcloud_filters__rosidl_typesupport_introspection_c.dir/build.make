@@ -78,6 +78,8 @@ rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_windo
 rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_window__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em
 rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_window__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
 rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_window__rosidl_typesupport_introspection_c.h: rosidl_adapter/pointcloud_filters/srv/GetCloudWindow.idl
+rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_window__rosidl_typesupport_introspection_c.h: rosidl_adapter/pointcloud_filters/msg/BuoyDetection.idl
+rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_window__rosidl_typesupport_introspection_c.h: rosidl_adapter/pointcloud_filters/msg/BuoyDetectionArray.idl
 rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_window__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
 rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_window__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl
 rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_window__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl
@@ -173,8 +175,20 @@ rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_windo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jacob/ros2_ws/build/pointcloud_filters/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/jacob/ros2_ws/build/pointcloud_filters/rosidl_typesupport_introspection_c__arguments.json
 
+rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_window__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection__rosidl_typesupport_introspection_c.h
+
+rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection_array__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_window__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection_array__rosidl_typesupport_introspection_c.h
+
 rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_window__type_support.c: rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_window__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_window__type_support.c
+
+rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection__type_support.c: rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_window__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection__type_support.c
+
+rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection_array__type_support.c: rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_window__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection_array__type_support.c
 
 CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_window__type_support.c.o: CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_window__type_support.c.o: rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_window__type_support.c
@@ -190,14 +204,46 @@ CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typ
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_window__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jacob/ros2_ws/build/pointcloud_filters/rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_window__type_support.c -o CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_window__type_support.c.s
 
+CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection__type_support.c.o: CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection__type_support.c.o: rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection__type_support.c
+CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection__type_support.c.o: CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jacob/ros2_ws/build/pointcloud_filters/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection__type_support.c.o -MF CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection__type_support.c.o.d -o CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection__type_support.c.o -c /home/jacob/ros2_ws/build/pointcloud_filters/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection__type_support.c
+
+CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jacob/ros2_ws/build/pointcloud_filters/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection__type_support.c > CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection__type_support.c.i
+
+CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jacob/ros2_ws/build/pointcloud_filters/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection__type_support.c -o CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection__type_support.c.s
+
+CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection_array__type_support.c.o: CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection_array__type_support.c.o: rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection_array__type_support.c
+CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection_array__type_support.c.o: CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jacob/ros2_ws/build/pointcloud_filters/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection_array__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection_array__type_support.c.o -MF CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection_array__type_support.c.o.d -o CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection_array__type_support.c.o -c /home/jacob/ros2_ws/build/pointcloud_filters/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection_array__type_support.c
+
+CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection_array__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection_array__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jacob/ros2_ws/build/pointcloud_filters/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection_array__type_support.c > CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection_array__type_support.c.i
+
+CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection_array__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection_array__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jacob/ros2_ws/build/pointcloud_filters/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection_array__type_support.c -o CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection_array__type_support.c.s
+
 # Object files for target pointcloud_filters__rosidl_typesupport_introspection_c
 pointcloud_filters__rosidl_typesupport_introspection_c_OBJECTS = \
-"CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_window__type_support.c.o"
+"CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_window__type_support.c.o" \
+"CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection__type_support.c.o" \
+"CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection_array__type_support.c.o"
 
 # External object files for target pointcloud_filters__rosidl_typesupport_introspection_c
 pointcloud_filters__rosidl_typesupport_introspection_c_EXTERNAL_OBJECTS =
 
 libpointcloud_filters__rosidl_typesupport_introspection_c.so: CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_window__type_support.c.o
+libpointcloud_filters__rosidl_typesupport_introspection_c.so: CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection__type_support.c.o
+libpointcloud_filters__rosidl_typesupport_introspection_c.so: CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection_array__type_support.c.o
 libpointcloud_filters__rosidl_typesupport_introspection_c.so: CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/build.make
 libpointcloud_filters__rosidl_typesupport_introspection_c.so: libpointcloud_filters__rosidl_generator_c.so
 libpointcloud_filters__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
@@ -212,7 +258,7 @@ libpointcloud_filters__rosidl_typesupport_introspection_c.so: /opt/ros/humble/li
 libpointcloud_filters__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libpointcloud_filters__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librcutils.so
 libpointcloud_filters__rosidl_typesupport_introspection_c.so: CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jacob/ros2_ws/build/pointcloud_filters/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libpointcloud_filters__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jacob/ros2_ws/build/pointcloud_filters/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libpointcloud_filters__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -223,6 +269,10 @@ CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/clean
 
+CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection__rosidl_typesupport_introspection_c.h
+CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection__type_support.c
+CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection_array__rosidl_typesupport_introspection_c.h
+CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/pointcloud_filters/msg/detail/buoy_detection_array__type_support.c
 CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_window__rosidl_typesupport_introspection_c.h
 CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/pointcloud_filters/srv/detail/get_cloud_window__type_support.c
 	cd /home/jacob/ros2_ws/build/pointcloud_filters && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jacob/ros2_ws/src/pointcloud_filters /home/jacob/ros2_ws/src/pointcloud_filters /home/jacob/ros2_ws/build/pointcloud_filters /home/jacob/ros2_ws/build/pointcloud_filters /home/jacob/ros2_ws/build/pointcloud_filters/CMakeFiles/pointcloud_filters__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=$(COLOR)

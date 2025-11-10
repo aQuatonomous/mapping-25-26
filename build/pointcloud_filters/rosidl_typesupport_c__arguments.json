@@ -3,7 +3,9 @@
   "output_dir": "/home/jacob/ros2_ws/build/pointcloud_filters/rosidl_typesupport_c/pointcloud_filters",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_c/resource",
   "idl_tuples": [
-    "/home/jacob/ros2_ws/build/pointcloud_filters/rosidl_adapter/pointcloud_filters:srv/GetCloudWindow.idl"
+    "/home/jacob/ros2_ws/build/pointcloud_filters/rosidl_adapter/pointcloud_filters:srv/GetCloudWindow.idl",
+    "/home/jacob/ros2_ws/build/pointcloud_filters/rosidl_adapter/pointcloud_filters:msg/BuoyDetection.idl",
+    "/home/jacob/ros2_ws/build/pointcloud_filters/rosidl_adapter/pointcloud_filters:msg/BuoyDetectionArray.idl"
   ],
   "ros_interface_dependencies": [
     "sensor_msgs:/opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl",
@@ -107,6 +109,8 @@
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
     "/home/jacob/ros2_ws/build/pointcloud_filters/rosidl_adapter/pointcloud_filters/srv/GetCloudWindow.idl",
+    "/home/jacob/ros2_ws/build/pointcloud_filters/rosidl_adapter/pointcloud_filters/msg/BuoyDetection.idl",
+    "/home/jacob/ros2_ws/build/pointcloud_filters/rosidl_adapter/pointcloud_filters/msg/BuoyDetectionArray.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl",
