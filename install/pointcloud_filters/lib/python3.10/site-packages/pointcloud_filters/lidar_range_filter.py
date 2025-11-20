@@ -326,19 +326,36 @@ class LidarRangeFilterNode(Node):
         # Use the header from the newest cloud
         merged_header = clouds[-1].header
 
-        # Read all points from all clouds
+        # Determine if we have intensity field by checking first cloud
+        first_cloud_fields = [f.name for f in clouds[0].fields]
+        has_intensity = 'intensity' in first_cloud_fields
+        
+        # Read all points from all clouds, ensuring consistent field structure
         all_points = []
-        field_names = None
         for cloud in clouds:
-            if field_names is None:
-                field_names = tuple(f.name for f in cloud.fields)
+            cloud_fields = [f.name for f in cloud.fields]
+            cloud_has_intensity = 'intensity' in cloud_fields
+            
+            # Read with appropriate fields
+            if has_intensity and cloud_has_intensity:
+                field_names = ('x', 'y', 'z', 'intensity')
+            else:
+                field_names = ('x', 'y', 'z')
+            
             try:
                 pts_iter = pc2.read_points(cloud, field_names=field_names, skip_nans=True)
                 for p in pts_iter:
                     if isinstance(p, np.void) and getattr(p, 'dtype', None) is not None and p.dtype.fields is not None:
-                        all_points.append(tuple(float(p[fn]) for fn in field_names))
+                        if has_intensity and len(field_names) == 4:
+                            all_points.append((float(p['x']), float(p['y']), float(p['z']), float(p['intensity'])))
+                        else:
+                            all_points.append((float(p['x']), float(p['y']), float(p['z'])))
                     else:
-                        all_points.append(tuple(float(p[i]) for i in range(len(field_names))))
+                        # Tuple/sequence format
+                        if has_intensity and len(p) >= 4:
+                            all_points.append((float(p[0]), float(p[1]), float(p[2]), float(p[3])))
+                        else:
+                            all_points.append((float(p[0]), float(p[1]), float(p[2])))
             except Exception as e:
                 self.get_logger().warn(f'Failed to read points during merge: {e}')
                 continue
@@ -346,8 +363,8 @@ class LidarRangeFilterNode(Node):
         if len(all_points) == 0:
             return PointCloud2()
 
-        # Reconstruct PointCloud2 with merged points
-        if 'intensity' in field_names:
+        # Reconstruct PointCloud2 with merged points using consistent field structure
+        if has_intensity:
             from sensor_msgs.msg import PointField
             fields = [
                 PointField(name='x', offset=0, datatype=PointField.FLOAT32, count=1),

@@ -117,12 +117,16 @@ class TrackedBuoyVisualizer(Node):
             marker.scale.y = self.marker_radius * 2.0
             marker.scale.z = self.marker_height
             
-            # Color based on buoy color
+            # Color based on buoy color with confidence as intensity
+            # Higher confidence = darker/more saturated color
             rgb = self.color_map.get(buoy.color.lower(), self.color_map['unknown'])
-            marker.color.r = rgb[0]
-            marker.color.g = rgb[1]
-            marker.color.b = rgb[2]
-            marker.color.a = min(1.0, buoy.confidence)
+            confidence_intensity = min(1.0, max(0.3, buoy.confidence))  # Clamp to [0.3, 1.0]
+            
+            # Scale RGB values by confidence (higher confidence = darker/fuller color)
+            marker.color.r = rgb[0] * confidence_intensity
+            marker.color.g = rgb[1] * confidence_intensity
+            marker.color.b = rgb[2] * confidence_intensity
+            marker.color.a = 0.9  # Keep mostly opaque
             
             # Lifetime
             marker.lifetime.sec = int(self.marker_lifetime)
