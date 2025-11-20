@@ -233,3 +233,76 @@
 [2.008s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
 [2.009s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
 [2.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jacob/ros2_ws/build/pointcloud_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/ros2_ws/build/pointcloud_filters -- -j6 -l6
+[25.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jacob/ros2_ws/build/pointcloud_filters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/ros2_ws/build/pointcloud_filters -- -j6 -l6
+[25.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jacob/ros2_ws/build/pointcloud_filters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jacob/ros2_ws/build/pointcloud_filters
+[25.936s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_filters)
+[25.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jacob/ros2_ws/build/pointcloud_filters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jacob/ros2_ws/build/pointcloud_filters
+[25.965s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/ros2_ws/install/pointcloud_filters' for CMake module files
+[25.968s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/ros2_ws/install/pointcloud_filters' for CMake config files
+[25.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_filters', 'cmake_prefix_path')
+[25.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/hook/cmake_prefix_path.ps1'
+[25.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/hook/cmake_prefix_path.dsv'
+[25.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/hook/cmake_prefix_path.sh'
+[25.987s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/ros2_ws/install/pointcloud_filters/lib'
+[25.987s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_filters', 'ld_library_path_lib')
+[25.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/hook/ld_library_path_lib.ps1'
+[25.990s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/hook/ld_library_path_lib.dsv'
+[25.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/hook/ld_library_path_lib.sh'
+[25.994s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/ros2_ws/install/pointcloud_filters/bin'
+[25.994s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/ros2_ws/install/pointcloud_filters/lib/pkgconfig/pointcloud_filters.pc'
+[25.995s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/ros2_ws/install/pointcloud_filters/lib/python3.10/site-packages'
+[25.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_filters', 'pythonpath')
+[25.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/hook/pythonpath.ps1'
+[25.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/hook/pythonpath.dsv'
+[26.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/hook/pythonpath.sh'
+[26.010s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/ros2_ws/install/pointcloud_filters/bin'
+[26.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/package.ps1'
+[26.033s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/package.dsv'
+[26.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/package.sh'
+[26.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/package.bash'
+[26.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/package.zsh'
+[26.085s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jacob/ros2_ws/install/pointcloud_filters/share/colcon-core/packages/pointcloud_filters)
+[26.088s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_filters)
+[26.089s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/ros2_ws/install/pointcloud_filters' for CMake module files
+[26.091s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/ros2_ws/install/pointcloud_filters' for CMake config files
+[26.092s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_filters', 'cmake_prefix_path')
+[26.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/hook/cmake_prefix_path.ps1'
+[26.095s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/hook/cmake_prefix_path.dsv'
+[26.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/hook/cmake_prefix_path.sh'
+[26.098s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/ros2_ws/install/pointcloud_filters/lib'
+[26.099s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_filters', 'ld_library_path_lib')
+[26.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/hook/ld_library_path_lib.ps1'
+[26.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/hook/ld_library_path_lib.dsv'
+[26.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/hook/ld_library_path_lib.sh'
+[26.103s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/ros2_ws/install/pointcloud_filters/bin'
+[26.104s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/ros2_ws/install/pointcloud_filters/lib/pkgconfig/pointcloud_filters.pc'
+[26.104s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/ros2_ws/install/pointcloud_filters/lib/python3.10/site-packages'
+[26.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_filters', 'pythonpath')
+[26.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/hook/pythonpath.ps1'
+[26.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/hook/pythonpath.dsv'
+[26.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/hook/pythonpath.sh'
+[26.109s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/ros2_ws/install/pointcloud_filters/bin'
+[26.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/package.ps1'
+[26.113s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/package.dsv'
+[26.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/package.sh'
+[26.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/package.bash'
+[26.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/ros2_ws/install/pointcloud_filters/share/pointcloud_filters/package.zsh'
+[26.127s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jacob/ros2_ws/install/pointcloud_filters/share/colcon-core/packages/pointcloud_filters)
+[26.128s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[26.129s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[26.130s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[26.130s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[26.216s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[26.217s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[26.217s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[26.686s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[26.687s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jacob/ros2_ws/install/local_setup.ps1'
+[26.698s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jacob/ros2_ws/install/_local_setup_util_ps1.py'
+[26.740s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jacob/ros2_ws/install/setup.ps1'
+[26.786s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jacob/ros2_ws/install/local_setup.sh'
+[26.820s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jacob/ros2_ws/install/_local_setup_util_sh.py'
+[26.823s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jacob/ros2_ws/install/setup.sh'
+[26.870s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jacob/ros2_ws/install/local_setup.bash'
+[26.932s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jacob/ros2_ws/install/setup.bash'
+[26.943s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jacob/ros2_ws/install/local_setup.zsh'
+[26.951s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jacob/ros2_ws/install/setup.zsh'

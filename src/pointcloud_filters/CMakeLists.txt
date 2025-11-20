@@ -47,6 +47,13 @@ install(PROGRAMS
   RENAME buoy_tracker
 )
 
+# Install tracked_buoy_visualizer separately
+install(PROGRAMS
+  pointcloud_filters/tracked_buoy_visualizer.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME tracked_buoy_visualizer
+)
+
 # Install Python module (without ament_python_install_package to avoid duplication)
 install(DIRECTORY pointcloud_filters/
   DESTINATION lib/python3.10/site-packages/${PROJECT_NAME}
