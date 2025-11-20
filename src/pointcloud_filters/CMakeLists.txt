@@ -7,13 +7,16 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(visualization_msgs REQUIRED)
+find_package(builtin_interfaces REQUIRED)
 
 # Generate service and message interfaces
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetCloudWindow.srv"
   "msg/BuoyDetection.msg"
   "msg/BuoyDetectionArray.msg"
-  DEPENDENCIES sensor_msgs std_msgs
+  "msg/TrackedBuoy.msg"
+  "msg/TrackedBuoyArray.msg"
+  DEPENDENCIES sensor_msgs std_msgs builtin_interfaces
 )
 
 # Install Python scripts
@@ -35,6 +38,13 @@ install(PROGRAMS
   pointcloud_filters/buoy_visualizer.py
   DESTINATION lib/${PROJECT_NAME}
   RENAME buoy_visualizer
+)
+
+# Install buoy_tracker separately
+install(PROGRAMS
+  pointcloud_filters/buoy_tracker.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME buoy_tracker
 )
 
 # Install Python module (without ament_python_install_package to avoid duplication)

@@ -368,6 +368,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pointcloud_filters/msg" TYPE FILE FILES "/home/jacob/ros2_ws/build/pointcloud_filters/rosidl_adapter/pointcloud_filters/msg/TrackedBuoy.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pointcloud_filters/msg" TYPE FILE FILES "/home/jacob/ros2_ws/build/pointcloud_filters/rosidl_adapter/pointcloud_filters/msg/TrackedBuoyArray.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pointcloud_filters/srv" TYPE FILE FILES "/home/jacob/ros2_ws/src/pointcloud_filters/srv/GetCloudWindow.srv")
 endif()
 
@@ -388,6 +396,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pointcloud_filters/msg" TYPE FILE FILES "/home/jacob/ros2_ws/src/pointcloud_filters/msg/TrackedBuoy.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pointcloud_filters/msg" TYPE FILE FILES "/home/jacob/ros2_ws/src/pointcloud_filters/msg/TrackedBuoyArray.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pointcloud_filters" TYPE PROGRAM RENAME "lidar_range_filter" FILES "/home/jacob/ros2_ws/src/pointcloud_filters/pointcloud_filters/lidar_range_filter.py")
 endif()
 
@@ -397,6 +413,10 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pointcloud_filters" TYPE PROGRAM RENAME "buoy_visualizer" FILES "/home/jacob/ros2_ws/src/pointcloud_filters/pointcloud_filters/buoy_visualizer.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pointcloud_filters" TYPE PROGRAM RENAME "buoy_tracker" FILES "/home/jacob/ros2_ws/src/pointcloud_filters/pointcloud_filters/buoy_tracker.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

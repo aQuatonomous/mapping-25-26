@@ -72,11 +72,15 @@ pointcloud_filters__py/CMakeFiles/pointcloud_filters__py: rosidl_generator_py/po
 pointcloud_filters__py/CMakeFiles/pointcloud_filters__py: rosidl_generator_py/pointcloud_filters/srv/_get_cloud_window.py
 pointcloud_filters__py/CMakeFiles/pointcloud_filters__py: rosidl_generator_py/pointcloud_filters/msg/_buoy_detection.py
 pointcloud_filters__py/CMakeFiles/pointcloud_filters__py: rosidl_generator_py/pointcloud_filters/msg/_buoy_detection_array.py
+pointcloud_filters__py/CMakeFiles/pointcloud_filters__py: rosidl_generator_py/pointcloud_filters/msg/_tracked_buoy.py
+pointcloud_filters__py/CMakeFiles/pointcloud_filters__py: rosidl_generator_py/pointcloud_filters/msg/_tracked_buoy_array.py
 pointcloud_filters__py/CMakeFiles/pointcloud_filters__py: rosidl_generator_py/pointcloud_filters/srv/__init__.py
 pointcloud_filters__py/CMakeFiles/pointcloud_filters__py: rosidl_generator_py/pointcloud_filters/msg/__init__.py
 pointcloud_filters__py/CMakeFiles/pointcloud_filters__py: rosidl_generator_py/pointcloud_filters/srv/_get_cloud_window_s.c
 pointcloud_filters__py/CMakeFiles/pointcloud_filters__py: rosidl_generator_py/pointcloud_filters/msg/_buoy_detection_s.c
 pointcloud_filters__py/CMakeFiles/pointcloud_filters__py: rosidl_generator_py/pointcloud_filters/msg/_buoy_detection_array_s.c
+pointcloud_filters__py/CMakeFiles/pointcloud_filters__py: rosidl_generator_py/pointcloud_filters/msg/_tracked_buoy_s.c
+pointcloud_filters__py/CMakeFiles/pointcloud_filters__py: rosidl_generator_py/pointcloud_filters/msg/_tracked_buoy_array_s.c
 
 rosidl_generator_py/pointcloud_filters/_pointcloud_filters_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/pointcloud_filters/_pointcloud_filters_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -94,6 +98,8 @@ rosidl_generator_py/pointcloud_filters/_pointcloud_filters_s.ep.rosidl_typesuppo
 rosidl_generator_py/pointcloud_filters/_pointcloud_filters_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pointcloud_filters/srv/GetCloudWindow.idl
 rosidl_generator_py/pointcloud_filters/_pointcloud_filters_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pointcloud_filters/msg/BuoyDetection.idl
 rosidl_generator_py/pointcloud_filters/_pointcloud_filters_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pointcloud_filters/msg/BuoyDetectionArray.idl
+rosidl_generator_py/pointcloud_filters/_pointcloud_filters_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pointcloud_filters/msg/TrackedBuoy.idl
+rosidl_generator_py/pointcloud_filters/_pointcloud_filters_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pointcloud_filters/msg/TrackedBuoyArray.idl
 rosidl_generator_py/pointcloud_filters/_pointcloud_filters_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
 rosidl_generator_py/pointcloud_filters/_pointcloud_filters_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl
 rosidl_generator_py/pointcloud_filters/_pointcloud_filters_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl
@@ -204,6 +210,12 @@ rosidl_generator_py/pointcloud_filters/msg/_buoy_detection.py: rosidl_generator_
 rosidl_generator_py/pointcloud_filters/msg/_buoy_detection_array.py: rosidl_generator_py/pointcloud_filters/_pointcloud_filters_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pointcloud_filters/msg/_buoy_detection_array.py
 
+rosidl_generator_py/pointcloud_filters/msg/_tracked_buoy.py: rosidl_generator_py/pointcloud_filters/_pointcloud_filters_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pointcloud_filters/msg/_tracked_buoy.py
+
+rosidl_generator_py/pointcloud_filters/msg/_tracked_buoy_array.py: rosidl_generator_py/pointcloud_filters/_pointcloud_filters_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pointcloud_filters/msg/_tracked_buoy_array.py
+
 rosidl_generator_py/pointcloud_filters/srv/__init__.py: rosidl_generator_py/pointcloud_filters/_pointcloud_filters_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pointcloud_filters/srv/__init__.py
 
@@ -219,6 +231,12 @@ rosidl_generator_py/pointcloud_filters/msg/_buoy_detection_s.c: rosidl_generator
 rosidl_generator_py/pointcloud_filters/msg/_buoy_detection_array_s.c: rosidl_generator_py/pointcloud_filters/_pointcloud_filters_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pointcloud_filters/msg/_buoy_detection_array_s.c
 
+rosidl_generator_py/pointcloud_filters/msg/_tracked_buoy_s.c: rosidl_generator_py/pointcloud_filters/_pointcloud_filters_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pointcloud_filters/msg/_tracked_buoy_s.c
+
+rosidl_generator_py/pointcloud_filters/msg/_tracked_buoy_array_s.c: rosidl_generator_py/pointcloud_filters/_pointcloud_filters_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pointcloud_filters/msg/_tracked_buoy_array_s.c
+
 pointcloud_filters__py: pointcloud_filters__py/CMakeFiles/pointcloud_filters__py
 pointcloud_filters__py: rosidl_generator_py/pointcloud_filters/_pointcloud_filters_s.ep.rosidl_typesupport_c.c
 pointcloud_filters__py: rosidl_generator_py/pointcloud_filters/_pointcloud_filters_s.ep.rosidl_typesupport_fastrtps_c.c
@@ -228,6 +246,10 @@ pointcloud_filters__py: rosidl_generator_py/pointcloud_filters/msg/_buoy_detecti
 pointcloud_filters__py: rosidl_generator_py/pointcloud_filters/msg/_buoy_detection_array.py
 pointcloud_filters__py: rosidl_generator_py/pointcloud_filters/msg/_buoy_detection_array_s.c
 pointcloud_filters__py: rosidl_generator_py/pointcloud_filters/msg/_buoy_detection_s.c
+pointcloud_filters__py: rosidl_generator_py/pointcloud_filters/msg/_tracked_buoy.py
+pointcloud_filters__py: rosidl_generator_py/pointcloud_filters/msg/_tracked_buoy_array.py
+pointcloud_filters__py: rosidl_generator_py/pointcloud_filters/msg/_tracked_buoy_array_s.c
+pointcloud_filters__py: rosidl_generator_py/pointcloud_filters/msg/_tracked_buoy_s.c
 pointcloud_filters__py: rosidl_generator_py/pointcloud_filters/srv/__init__.py
 pointcloud_filters__py: rosidl_generator_py/pointcloud_filters/srv/_get_cloud_window.py
 pointcloud_filters__py: rosidl_generator_py/pointcloud_filters/srv/_get_cloud_window_s.c

@@ -2,6 +2,10 @@ msg/BuoyDetection.idl
 msg/BuoyDetection.msg
 msg/BuoyDetectionArray.idl
 msg/BuoyDetectionArray.msg
+msg/TrackedBuoy.idl
+msg/TrackedBuoy.msg
+msg/TrackedBuoyArray.idl
+msg/TrackedBuoyArray.msg
 srv/GetCloudWindow.idl
 srv/GetCloudWindow.srv
 srv/GetCloudWindow_Request.msg

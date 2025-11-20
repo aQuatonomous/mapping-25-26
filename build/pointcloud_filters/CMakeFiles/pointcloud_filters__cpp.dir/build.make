@@ -81,6 +81,16 @@ CMakeFiles/pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/
 CMakeFiles/pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/detail/buoy_detection_array__struct.hpp
 CMakeFiles/pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/detail/buoy_detection_array__traits.hpp
 CMakeFiles/pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/detail/buoy_detection_array__type_support.hpp
+CMakeFiles/pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/tracked_buoy.hpp
+CMakeFiles/pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy__builder.hpp
+CMakeFiles/pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy__struct.hpp
+CMakeFiles/pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy__traits.hpp
+CMakeFiles/pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy__type_support.hpp
+CMakeFiles/pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/tracked_buoy_array.hpp
+CMakeFiles/pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy_array__builder.hpp
+CMakeFiles/pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy_array__struct.hpp
+CMakeFiles/pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy_array__traits.hpp
+CMakeFiles/pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy_array__type_support.hpp
 CMakeFiles/pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/pointcloud_filters/srv/get_cloud_window.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -101,6 +111,8 @@ rosidl_generator_cpp/pointcloud_filters/srv/get_cloud_window.hpp: /opt/ros/humbl
 rosidl_generator_cpp/pointcloud_filters/srv/get_cloud_window.hpp: rosidl_adapter/pointcloud_filters/srv/GetCloudWindow.idl
 rosidl_generator_cpp/pointcloud_filters/srv/get_cloud_window.hpp: rosidl_adapter/pointcloud_filters/msg/BuoyDetection.idl
 rosidl_generator_cpp/pointcloud_filters/srv/get_cloud_window.hpp: rosidl_adapter/pointcloud_filters/msg/BuoyDetectionArray.idl
+rosidl_generator_cpp/pointcloud_filters/srv/get_cloud_window.hpp: rosidl_adapter/pointcloud_filters/msg/TrackedBuoy.idl
+rosidl_generator_cpp/pointcloud_filters/srv/get_cloud_window.hpp: rosidl_adapter/pointcloud_filters/msg/TrackedBuoyArray.idl
 rosidl_generator_cpp/pointcloud_filters/srv/get_cloud_window.hpp: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
 rosidl_generator_cpp/pointcloud_filters/srv/get_cloud_window.hpp: /opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl
 rosidl_generator_cpp/pointcloud_filters/srv/get_cloud_window.hpp: /opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl
@@ -238,6 +250,36 @@ rosidl_generator_cpp/pointcloud_filters/msg/detail/buoy_detection_array__traits.
 rosidl_generator_cpp/pointcloud_filters/msg/detail/buoy_detection_array__type_support.hpp: rosidl_generator_cpp/pointcloud_filters/srv/get_cloud_window.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pointcloud_filters/msg/detail/buoy_detection_array__type_support.hpp
 
+rosidl_generator_cpp/pointcloud_filters/msg/tracked_buoy.hpp: rosidl_generator_cpp/pointcloud_filters/srv/get_cloud_window.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pointcloud_filters/msg/tracked_buoy.hpp
+
+rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy__builder.hpp: rosidl_generator_cpp/pointcloud_filters/srv/get_cloud_window.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy__builder.hpp
+
+rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy__struct.hpp: rosidl_generator_cpp/pointcloud_filters/srv/get_cloud_window.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy__struct.hpp
+
+rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy__traits.hpp: rosidl_generator_cpp/pointcloud_filters/srv/get_cloud_window.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy__traits.hpp
+
+rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy__type_support.hpp: rosidl_generator_cpp/pointcloud_filters/srv/get_cloud_window.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy__type_support.hpp
+
+rosidl_generator_cpp/pointcloud_filters/msg/tracked_buoy_array.hpp: rosidl_generator_cpp/pointcloud_filters/srv/get_cloud_window.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pointcloud_filters/msg/tracked_buoy_array.hpp
+
+rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy_array__builder.hpp: rosidl_generator_cpp/pointcloud_filters/srv/get_cloud_window.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy_array__builder.hpp
+
+rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy_array__struct.hpp: rosidl_generator_cpp/pointcloud_filters/srv/get_cloud_window.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy_array__struct.hpp
+
+rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy_array__traits.hpp: rosidl_generator_cpp/pointcloud_filters/srv/get_cloud_window.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy_array__traits.hpp
+
+rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy_array__type_support.hpp: rosidl_generator_cpp/pointcloud_filters/srv/get_cloud_window.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy_array__type_support.hpp
+
 pointcloud_filters__cpp: CMakeFiles/pointcloud_filters__cpp
 pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/buoy_detection.hpp
 pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/buoy_detection_array.hpp
@@ -249,6 +291,16 @@ pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/detail/buoy
 pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/detail/buoy_detection_array__struct.hpp
 pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/detail/buoy_detection_array__traits.hpp
 pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/detail/buoy_detection_array__type_support.hpp
+pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy__builder.hpp
+pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy__struct.hpp
+pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy__traits.hpp
+pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy__type_support.hpp
+pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy_array__builder.hpp
+pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy_array__struct.hpp
+pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy_array__traits.hpp
+pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/detail/tracked_buoy_array__type_support.hpp
+pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/tracked_buoy.hpp
+pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/msg/tracked_buoy_array.hpp
 pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/srv/detail/get_cloud_window__builder.hpp
 pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/srv/detail/get_cloud_window__struct.hpp
 pointcloud_filters__cpp: rosidl_generator_cpp/pointcloud_filters/srv/detail/get_cloud_window__traits.hpp

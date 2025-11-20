@@ -3,6 +3,8 @@
   "non_idl_tuples": [
     "/home/jacob/ros2_ws/src/pointcloud_filters:srv/GetCloudWindow.srv",
     "/home/jacob/ros2_ws/src/pointcloud_filters:msg/BuoyDetection.msg",
-    "/home/jacob/ros2_ws/src/pointcloud_filters:msg/BuoyDetectionArray.msg"
+    "/home/jacob/ros2_ws/src/pointcloud_filters:msg/BuoyDetectionArray.msg",
+    "/home/jacob/ros2_ws/src/pointcloud_filters:msg/TrackedBuoy.msg",
+    "/home/jacob/ros2_ws/src/pointcloud_filters:msg/TrackedBuoyArray.msg"
   ]
 }

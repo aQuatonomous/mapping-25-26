@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.001332] (-) JobUnselected: {'identifier': 'my_lidar_pkg'}
+[0.001709] (-) JobUnselected: {'identifier': 'ros_numpy'}
+[0.002021] (-) JobUnselected: {'identifier': 'unitree_lidar_ros'}
+[0.002157] (-) JobUnselected: {'identifier': 'unitree_lidar_ros2'}
+[0.002389] (-) JobUnselected: {'identifier': 'unitree_lidar_sdk'}
+[0.002513] (pointcloud_filters) JobQueued: {'identifier': 'pointcloud_filters', 'dependencies': OrderedDict()}
+[0.002591] (pointcloud_filters) JobStarted: {'identifier': 'pointcloud_filters'}
+[0.037278] (pointcloud_filters) JobProgress: {'identifier': 'pointcloud_filters', 'progress': 'cmake'}
+[0.041311] (pointcloud_filters) JobProgress: {'identifier': 'pointcloud_filters', 'progress': 'build'}
+[0.043257] (pointcloud_filters) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jacob/ros2_ws/build/pointcloud_filters', '--', '-j6', '-l6'], 'cwd': '/home/jacob/ros2_ws/build/pointcloud_filters', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jacob'), ('SSH_CLIENT', '100.70.227.125 50349 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jacob/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jacob/ros2_ws/install/pointcloud_filters/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/jacob/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jacob'), ('OLDPWD', '/home/jacob'), ('TERM_PROGRAM_VERSION', '1.106.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1002/vscode-ipc-3bb6a170-1f30-4260-9f7e-14a19e7b4f9f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jacob/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jacob/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/jacob/.vscode-server/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jacob/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jacob'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '472'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jacob/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jacob/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jacob/.vscode-server/cli/servers/Stable-1e3c50d64110be466c0b4a45222e81d2c9352888/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jacob/.vscode-server/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/jacob/.vscode-server/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-088ca0596c8cd9f8.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/jacob/.vscode-server/data/User/workspaceStorage/b86d42e407ad0a0e5ca97f9566381925/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1002/vscode-git-9ec1cd6cc6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/jacob/ros2_ws/install/unitree_lidar_ros2:/home/jacob/ros2_ws/install/pointcloud_filters:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('PWD', '/home/jacob/ros2_ws/build/pointcloud_filters'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '100.70.227.125 50349 100.123.76.44 22'), ('PYTHONPATH', '/home/jacob/ros2_ws/install/pointcloud_filters/local/lib/python3.10/dist-packages:/home/jacob/ros2_ws/install/pointcloud_filters/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jacob/ros2_ws/install/unitree_lidar_ros2:/home/jacob/ros2_ws/install/pointcloud_filters:/opt/ros/humble')]), 'shell': False}
+[0.098611] (-) TimerEvent: {}
+[0.199938] (-) TimerEvent: {}
+[0.302165] (-) TimerEvent: {}
+[0.404543] (-) TimerEvent: {}
+[0.506696] (-) TimerEvent: {}
+[0.580416] (pointcloud_filters) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.606923] (-) TimerEvent: {}
+[0.707930] (-) TimerEvent: {}
+[0.808928] (-) TimerEvent: {}
+[0.909931] (-) TimerEvent: {}
+[1.003336] (pointcloud_filters) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.010066] (-) TimerEvent: {}
+[1.013716] (pointcloud_filters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.030221] (pointcloud_filters) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.110560] (-) TimerEvent: {}
+[1.212581] (-) TimerEvent: {}
+[1.215149] (pointcloud_filters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.312982] (-) TimerEvent: {}
+[1.324206] (pointcloud_filters) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.413110] (-) TimerEvent: {}
+[1.505574] (pointcloud_filters) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.513193] (-) TimerEvent: {}
+[1.613931] (-) TimerEvent: {}
+[1.715309] (-) TimerEvent: {}
+[1.817283] (-) TimerEvent: {}
+[1.918294] (-) TimerEvent: {}
+[2.019552] (-) TimerEvent: {}
+[2.121419] (-) TimerEvent: {}
+[2.222908] (-) TimerEvent: {}
+[2.325373] (-) TimerEvent: {}
+[2.427946] (-) TimerEvent: {}
+[2.529976] (-) TimerEvent: {}
+[2.607954] (pointcloud_filters) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.630147] (-) TimerEvent: {}
+[2.731414] (-) TimerEvent: {}
+[2.832340] (-) TimerEvent: {}
+[2.933794] (-) TimerEvent: {}
+[3.035932] (-) TimerEvent: {}
+[3.137305] (-) TimerEvent: {}
+[3.239674] (-) TimerEvent: {}
+[3.340980] (-) TimerEvent: {}
+[3.390545] (pointcloud_filters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.441169] (-) TimerEvent: {}
+[3.542923] (-) TimerEvent: {}
+[3.644537] (-) TimerEvent: {}
+[3.746638] (-) TimerEvent: {}
+[3.848665] (-) TimerEvent: {}
+[3.950385] (-) TimerEvent: {}
+[4.052355] (-) TimerEvent: {}
+[4.153668] (-) TimerEvent: {}
+[4.256419] (-) TimerEvent: {}
+[4.357826] (-) TimerEvent: {}
+[4.405177] (pointcloud_filters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.457942] (-) TimerEvent: {}
+[4.480812] (pointcloud_filters) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.554374] (pointcloud_filters) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.556258] (pointcloud_filters) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.556635] (pointcloud_filters) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[4.558051] (-) TimerEvent: {}
+[4.659319] (-) TimerEvent: {}
+[4.760913] (-) TimerEvent: {}
+[4.791380] (pointcloud_filters) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.861695] (-) TimerEvent: {}
+[4.964719] (-) TimerEvent: {}
+[5.066985] (-) TimerEvent: {}
+[5.169409] (-) TimerEvent: {}
+[5.231472] (pointcloud_filters) StdoutLine: {'line': b'-- Generating done\n'}
+[5.269878] (-) TimerEvent: {}
+[5.283675] (pointcloud_filters) StdoutLine: {'line': b'-- Build files have been written to: /home/jacob/ros2_ws/build/pointcloud_filters\n'}
+[5.370041] (-) TimerEvent: {}
+[5.372430] (pointcloud_filters) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.415074] (pointcloud_filters) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.460946] (pointcloud_filters) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_pointcloud_filters\n'}
+[5.470259] (-) TimerEvent: {}
+[5.571280] (-) TimerEvent: {}
+[5.672274] (-) TimerEvent: {}
+[5.773242] (-) TimerEvent: {}
+[5.874217] (-) TimerEvent: {}
+[5.975245] (-) TimerEvent: {}
+[6.076158] (-) TimerEvent: {}
+[6.127602] (pointcloud_filters) StdoutLine: {'line': b'running egg_info\n'}
+[6.129614] (pointcloud_filters) StdoutLine: {'line': b'writing pointcloud_filters.egg-info/PKG-INFO\n'}
+[6.130425] (pointcloud_filters) StdoutLine: {'line': b'writing dependency_links to pointcloud_filters.egg-info/dependency_links.txt\n'}
+[6.130995] (pointcloud_filters) StdoutLine: {'line': b'writing top-level names to pointcloud_filters.egg-info/top_level.txt\n'}
+[6.143272] (pointcloud_filters) StdoutLine: {'line': b"reading manifest file 'pointcloud_filters.egg-info/SOURCES.txt'\n"}
+[6.145488] (pointcloud_filters) StdoutLine: {'line': b"writing manifest file 'pointcloud_filters.egg-info/SOURCES.txt'\n"}
+[6.176410] (-) TimerEvent: {}
+[6.255573] (pointcloud_filters) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_pointcloud_filters_egg\n'}
+[6.276651] (-) TimerEvent: {}
+[6.377764] (-) TimerEvent: {}
+[6.478850] (-) TimerEvent: {}
+[6.579926] (-) TimerEvent: {}
+[6.680912] (-) TimerEvent: {}
+[6.781909] (-) TimerEvent: {}
+[6.882943] (-) TimerEvent: {}
+[6.983831] (-) TimerEvent: {}
+[7.084813] (-) TimerEvent: {}
+[7.185883] (-) TimerEvent: {}
+[7.344394] (-) TimerEvent: {}
+[7.445942] (-) TimerEvent: {}
+[7.449108] (pointcloud_filters) StdoutLine: {'line': b'[  3%] Built target pointcloud_filters__cpp\n'}
+[7.546343] (-) TimerEvent: {}
+[7.648146] (-) TimerEvent: {}
+[7.749489] (-) TimerEvent: {}
+[7.851277] (-) TimerEvent: {}
+[7.953633] (-) TimerEvent: {}
+[8.056031] (-) TimerEvent: {}
+[8.143698] (pointcloud_filters) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.145448] (pointcloud_filters) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.146857] (pointcloud_filters) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.156358] (-) TimerEvent: {}
+[8.257760] (-) TimerEvent: {}
+[8.359883] (-) TimerEvent: {}
+[8.433627] (pointcloud_filters) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pointcloud_filters__rosidl_generator_c\x1b[0m\n'}
+[8.463066] (-) TimerEvent: {}
+[8.541509] (pointcloud_filters) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/pointcloud_filters__rosidl_generator_c.dir/rosidl_generator_c/pointcloud_filters/msg/detail/buoy_detection_array__functions.c.o\x1b[0m\n'}
+[8.563283] (-) TimerEvent: {}
+[8.575623] (pointcloud_filters) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/pointcloud_filters__rosidl_generator_c.dir/rosidl_generator_c/pointcloud_filters/msg/detail/buoy_detection__functions.c.o\x1b[0m\n'}
+[8.577011] (pointcloud_filters) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/pointcloud_filters__rosidl_generator_c.dir/rosidl_generator_c/pointcloud_filters/srv/detail/get_cloud_window__functions.c.o\x1b[0m\n'}
+[8.663570] (-) TimerEvent: {}
+[8.764569] (-) TimerEvent: {}
+[8.865894] (-) TimerEvent: {}
+[8.966971] (-) TimerEvent: {}
+[9.067922] (-) TimerEvent: {}
+[9.168953] (-) TimerEvent: {}

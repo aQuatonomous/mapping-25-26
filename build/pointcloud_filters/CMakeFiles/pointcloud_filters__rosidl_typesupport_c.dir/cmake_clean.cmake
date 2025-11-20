@@ -3,12 +3,18 @@ file(REMOVE_RECURSE
   "CMakeFiles/pointcloud_filters__rosidl_typesupport_c.dir/rosidl_typesupport_c/pointcloud_filters/msg/buoy_detection__type_support.cpp.o.d"
   "CMakeFiles/pointcloud_filters__rosidl_typesupport_c.dir/rosidl_typesupport_c/pointcloud_filters/msg/buoy_detection_array__type_support.cpp.o"
   "CMakeFiles/pointcloud_filters__rosidl_typesupport_c.dir/rosidl_typesupport_c/pointcloud_filters/msg/buoy_detection_array__type_support.cpp.o.d"
+  "CMakeFiles/pointcloud_filters__rosidl_typesupport_c.dir/rosidl_typesupport_c/pointcloud_filters/msg/tracked_buoy__type_support.cpp.o"
+  "CMakeFiles/pointcloud_filters__rosidl_typesupport_c.dir/rosidl_typesupport_c/pointcloud_filters/msg/tracked_buoy__type_support.cpp.o.d"
+  "CMakeFiles/pointcloud_filters__rosidl_typesupport_c.dir/rosidl_typesupport_c/pointcloud_filters/msg/tracked_buoy_array__type_support.cpp.o"
+  "CMakeFiles/pointcloud_filters__rosidl_typesupport_c.dir/rosidl_typesupport_c/pointcloud_filters/msg/tracked_buoy_array__type_support.cpp.o.d"
   "CMakeFiles/pointcloud_filters__rosidl_typesupport_c.dir/rosidl_typesupport_c/pointcloud_filters/srv/get_cloud_window__type_support.cpp.o"
   "CMakeFiles/pointcloud_filters__rosidl_typesupport_c.dir/rosidl_typesupport_c/pointcloud_filters/srv/get_cloud_window__type_support.cpp.o.d"
   "libpointcloud_filters__rosidl_typesupport_c.pdb"
   "libpointcloud_filters__rosidl_typesupport_c.so"
   "rosidl_typesupport_c/pointcloud_filters/msg/buoy_detection__type_support.cpp"
   "rosidl_typesupport_c/pointcloud_filters/msg/buoy_detection_array__type_support.cpp"
+  "rosidl_typesupport_c/pointcloud_filters/msg/tracked_buoy__type_support.cpp"
+  "rosidl_typesupport_c/pointcloud_filters/msg/tracked_buoy_array__type_support.cpp"
   "rosidl_typesupport_c/pointcloud_filters/srv/get_cloud_window__type_support.cpp"
 )
 
