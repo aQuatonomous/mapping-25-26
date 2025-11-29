@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/jacob/ros2_ws/src/unilidar_sdk/unitree_lidar_sdk/include
+CXX_INCLUDES = -I/home/jcube05/ros2_ws/mapping-25-26/src/unilidar_sdk/unitree_lidar_sdk/include
 
 CXX_FLAGS = -std=c++14  -O3 -Wall -DNDEBUG
 

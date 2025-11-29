@@ -1,0 +1,67 @@
+[0.567s] Invoking command in '/home/jcube05/ros2_ws/mapping-25-26/build/my_lidar_pkg': /usr/bin/cmake /home/jcube05/ros2_ws/mapping-25-26/src/my_lidar_pkg -DCMAKE_INSTALL_PREFIX=/home/jcube05/ros2_ws/mapping-25-26/install
+[0.953s] -- The C compiler identification is GNU 11.4.0
+[2.399s] -- The CXX compiler identification is GNU 11.4.0
+[3.395s] -- Detecting C compiler ABI info
+[3.893s] -- Detecting C compiler ABI info - done
+[3.916s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.916s] -- Detecting C compile features
+[3.918s] -- Detecting C compile features - done
+[3.927s] -- Detecting CXX compiler ABI info
+[4.529s] -- Detecting CXX compiler ABI info - done
+[4.546s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.547s] -- Detecting CXX compile features
+[4.548s] -- Detecting CXX compile features - done
+[4.555s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.953s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.590s] -- Configuring done
+[5.622s] -- Generating done
+[5.626s] -- Build files have been written to: /home/jcube05/ros2_ws/mapping-25-26/build/my_lidar_pkg
+[5.640s] Invoked command in '/home/jcube05/ros2_ws/mapping-25-26/build/my_lidar_pkg' returned '0': /usr/bin/cmake /home/jcube05/ros2_ws/mapping-25-26/src/my_lidar_pkg -DCMAKE_INSTALL_PREFIX=/home/jcube05/ros2_ws/mapping-25-26/install
+[5.645s] Invoking command in '/home/jcube05/ros2_ws/mapping-25-26/build/my_lidar_pkg': /usr/bin/cmake --build /home/jcube05/ros2_ws/mapping-25-26/build/my_lidar_pkg -- -j16 -l16
+[5.821s] Built target ament_cmake_python_copy_my_lidar_pkg_setup
+[5.823s] Built target ament_cmake_python_copy_my_lidar_pkg
+[6.587s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.587s]   warnings.warn(
+[6.589s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[6.589s]   warnings.warn(
+[6.603s] running egg_info
+[6.605s] creating my_lidar_pkg.egg-info
+[6.607s] writing my_lidar_pkg.egg-info/PKG-INFO
+[6.608s] writing dependency_links to my_lidar_pkg.egg-info/dependency_links.txt
+[6.608s] writing top-level names to my_lidar_pkg.egg-info/top_level.txt
+[6.609s] writing manifest file 'my_lidar_pkg.egg-info/SOURCES.txt'
+[6.617s] reading manifest file 'my_lidar_pkg.egg-info/SOURCES.txt'
+[6.618s] writing manifest file 'my_lidar_pkg.egg-info/SOURCES.txt'
+[6.721s] Built target ament_cmake_python_build_my_lidar_pkg_egg
+[6.765s] Invoked command in '/home/jcube05/ros2_ws/mapping-25-26/build/my_lidar_pkg' returned '0': /usr/bin/cmake --build /home/jcube05/ros2_ws/mapping-25-26/build/my_lidar_pkg -- -j16 -l16
+[6.890s] Invoking command in '/home/jcube05/ros2_ws/mapping-25-26/build/my_lidar_pkg': /usr/bin/cmake --install /home/jcube05/ros2_ws/mapping-25-26/build/my_lidar_pkg
+[6.915s] -- Install configuration: ""
+[6.919s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/my_lidar_pkg/environment/pythonpath.sh
+[6.920s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/my_lidar_pkg/environment/pythonpath.dsv
+[6.921s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/local/lib/python3.10/dist-packages/my_lidar_pkg-0.1.0-py3.10.egg-info
+[6.928s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/local/lib/python3.10/dist-packages/my_lidar_pkg-0.1.0-py3.10.egg-info/top_level.txt
+[6.928s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/local/lib/python3.10/dist-packages/my_lidar_pkg-0.1.0-py3.10.egg-info/PKG-INFO
+[6.929s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/local/lib/python3.10/dist-packages/my_lidar_pkg-0.1.0-py3.10.egg-info/dependency_links.txt
+[6.930s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/local/lib/python3.10/dist-packages/my_lidar_pkg-0.1.0-py3.10.egg-info/SOURCES.txt
+[6.930s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/local/lib/python3.10/dist-packages/my_lidar_pkg
+[6.932s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/local/lib/python3.10/dist-packages/my_lidar_pkg/__init__.py
+[6.933s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/local/lib/python3.10/dist-packages/my_lidar_pkg/lidar_subscriber.py
+[7.044s] Listing '/home/jcube05/ros2_ws/mapping-25-26/install/local/lib/python3.10/dist-packages/my_lidar_pkg'...
+[7.044s] Compiling '/home/jcube05/ros2_ws/mapping-25-26/install/local/lib/python3.10/dist-packages/my_lidar_pkg/__init__.py'...
+[7.044s] Compiling '/home/jcube05/ros2_ws/mapping-25-26/install/local/lib/python3.10/dist-packages/my_lidar_pkg/lidar_subscriber.py'...
+[7.063s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/ament_index/resource_index/package_run_dependencies/my_lidar_pkg
+[7.066s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/ament_index/resource_index/parent_prefix_path/my_lidar_pkg
+[7.066s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/my_lidar_pkg/environment/ament_prefix_path.sh
+[7.067s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/my_lidar_pkg/environment/ament_prefix_path.dsv
+[7.068s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/my_lidar_pkg/environment/path.sh
+[7.069s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/my_lidar_pkg/environment/path.dsv
+[7.069s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/my_lidar_pkg/local_setup.bash
+[7.070s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/my_lidar_pkg/local_setup.sh
+[7.071s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/my_lidar_pkg/local_setup.zsh
+[7.072s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/my_lidar_pkg/local_setup.dsv
+[7.073s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/my_lidar_pkg/package.dsv
+[7.076s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/ament_index/resource_index/packages/my_lidar_pkg
+[7.078s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/my_lidar_pkg/cmake/my_lidar_pkgConfig.cmake
+[7.079s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/my_lidar_pkg/cmake/my_lidar_pkgConfig-version.cmake
+[7.080s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/my_lidar_pkg/package.xml
+[7.089s] Invoked command in '/home/jcube05/ros2_ws/mapping-25-26/build/my_lidar_pkg' returned '0': /usr/bin/cmake --install /home/jcube05/ros2_ws/mapping-25-26/build/my_lidar_pkg

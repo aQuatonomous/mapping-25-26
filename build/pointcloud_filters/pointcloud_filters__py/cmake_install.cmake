@@ -1,8 +1,8 @@
-# Install script for directory: /home/jacob/ros2_ws/build/pointcloud_filters/pointcloud_filters__py
+# Install script for directory: /home/jcube05/ros2_ws/mapping-25-26/build/pointcloud_filters/pointcloud_filters__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jacob/ros2_ws/install/pointcloud_filters")
+  set(CMAKE_INSTALL_PREFIX "/home/jcube05/ros2_ws/mapping-25-26/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

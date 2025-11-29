@@ -1,8 +1,8 @@
-# Install script for directory: /home/jacob/ros2_ws/src/unilidar_sdk/unitree_lidar_sdk
+# Install script for directory: /home/jcube05/ros2_ws/mapping-25-26/src/unilidar_sdk/unitree_lidar_sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jacob/ros2_ws/install/unitree_lidar_sdk")
+  set(CMAKE_INSTALL_PREFIX "/home/jcube05/ros2_ws/mapping-25-26/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jacob/ros2_ws/build/unitree_lidar_sdk/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_sdk/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,0 +1,119 @@
+[0.360s] Invoking command in '/home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_ros2': /usr/bin/cmake /home/jcube05/ros2_ws/mapping-25-26/src/unilidar_sdk/unitree_lidar_ros2/src/unitree_lidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/jcube05/ros2_ws/mapping-25-26/install
+[0.721s] -- The C compiler identification is GNU 11.4.0
+[2.158s] -- The CXX compiler identification is GNU 11.4.0
+[3.148s] -- Detecting C compiler ABI info
+[3.663s] -- Detecting C compiler ABI info - done
+[3.683s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.684s] -- Detecting C compile features
+[3.684s] -- Detecting C compile features - done
+[3.696s] -- Detecting CXX compiler ABI info
+[4.275s] -- Detecting CXX compiler ABI info - done
+[4.289s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.290s] -- Detecting CXX compile features
+[4.291s] -- Detecting CXX compile features - done
+[4.297s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.698s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.960s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[5.533s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.551s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.579s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.617s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.673s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.978s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.987s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[10.554s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[15.569s] -- Found FastRTPS: /opt/ros/humble/include  
+[27.221s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[27.248s] -- Looking for pthread.h
+[27.742s] -- Looking for pthread.h - found
+[27.743s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[28.192s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[28.195s] -- Found Threads: TRUE  
+[28.314s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[28.377s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[28.458s] -- Checking for module 'eigen3'
+[28.494s] --   Found eigen3, version 3.4.0
+[28.592s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[28.592s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[32.513s] -- Checking for module 'flann'
+[32.546s] --   Found flann, version 1.9.1
+[33.739s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[33.739s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[49.579s] -- Checking for module 'libusb-1.0'
+[49.626s] --   Found libusb-1.0, version 1.0.25
+[49.992s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[49.994s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[50.663s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[57.530s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[57.551s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[57.571s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[64.186s] -- Found Qhull version 8.0.2
+[70.814s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[77.597s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[77.598s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[77.600s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[77.602s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[77.603s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[77.604s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[77.605s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[77.606s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[77.607s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[77.610s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[77.612s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[77.614s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[77.616s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[77.618s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[77.620s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[77.623s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[77.625s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[77.627s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[77.629s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[77.630s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[77.633s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[77.633s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[77.634s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[77.636s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[77.638s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[77.641s] [33mCMake Warning (dev) at CMakeLists.txt:23 (find_package):
+[77.642s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[77.642s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[77.642s]   command to set the policy and suppress this warning.
+[77.642s] 
+[77.642s]   CMake variable PCL_ROOT is set to:
+[77.642s] 
+[77.643s]     /usr
+[77.643s] 
+[77.643s]   For compatibility, CMake is ignoring the variable.
+[77.643s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[77.643s] [0m
+[77.837s] -- Configuring done
+[77.984s] -- Generating done
+[78.001s] -- Build files have been written to: /home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_ros2
+[78.071s] Invoked command in '/home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_ros2' returned '0': /usr/bin/cmake /home/jcube05/ros2_ws/mapping-25-26/src/unilidar_sdk/unitree_lidar_ros2/src/unitree_lidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/jcube05/ros2_ws/mapping-25-26/install
+[78.076s] Invoking command in '/home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_ros2': /usr/bin/cmake --build /home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_ros2 -- -j16 -l16
+[78.226s] [ 50%] [32mBuilding CXX object CMakeFiles/unitree_lidar_ros2_node.dir/src/unitree_lidar_ros2_node.cpp.o[0m
+[112.151s] [100%] [32m[1mLinking CXX executable unitree_lidar_ros2_node[0m
+[113.885s] [100%] Built target unitree_lidar_ros2_node
+[113.926s] Invoked command in '/home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_ros2' returned '0': /usr/bin/cmake --build /home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_ros2 -- -j16 -l16
+[114.010s] Invoking command in '/home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_ros2': /usr/bin/cmake --install /home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_ros2
+[114.030s] -- Install configuration: ""
+[114.032s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/lib/unitree_lidar_ros2/unitree_lidar_ros2_node
+[114.041s] -- Set runtime path of "/home/jcube05/ros2_ws/mapping-25-26/install/lib/unitree_lidar_ros2/unitree_lidar_ros2_node" to ""
+[114.042s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/unitree_lidar_ros2/view.rviz
+[114.043s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/unitree_lidar_ros2/launch.py
+[114.043s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/ament_index/resource_index/package_run_dependencies/unitree_lidar_ros2
+[114.044s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/ament_index/resource_index/parent_prefix_path/unitree_lidar_ros2
+[114.046s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/unitree_lidar_ros2/environment/ament_prefix_path.sh
+[114.046s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/unitree_lidar_ros2/environment/ament_prefix_path.dsv
+[114.047s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/unitree_lidar_ros2/environment/path.sh
+[114.048s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/unitree_lidar_ros2/environment/path.dsv
+[114.048s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/unitree_lidar_ros2/local_setup.bash
+[114.049s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/unitree_lidar_ros2/local_setup.sh
+[114.050s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/unitree_lidar_ros2/local_setup.zsh
+[114.051s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/unitree_lidar_ros2/local_setup.dsv
+[114.051s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/unitree_lidar_ros2/package.dsv
+[114.052s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/ament_index/resource_index/packages/unitree_lidar_ros2
+[114.054s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/unitree_lidar_ros2/cmake/unitree_lidar_ros2Config.cmake
+[114.056s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/unitree_lidar_ros2/cmake/unitree_lidar_ros2Config-version.cmake
+[114.056s] -- Installing: /home/jcube05/ros2_ws/mapping-25-26/install/share/unitree_lidar_ros2/package.xml
+[114.069s] Invoked command in '/home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_ros2' returned '0': /usr/bin/cmake --install /home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_ros2

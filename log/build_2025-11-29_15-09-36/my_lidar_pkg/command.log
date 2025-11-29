@@ -1,0 +1,6 @@
+Invoking command in '/home/jcube05/ros2_ws/mapping-25-26/build/my_lidar_pkg': /usr/bin/cmake /home/jcube05/ros2_ws/mapping-25-26/src/my_lidar_pkg -DCMAKE_INSTALL_PREFIX=/home/jcube05/ros2_ws/mapping-25-26/install
+Invoked command in '/home/jcube05/ros2_ws/mapping-25-26/build/my_lidar_pkg' returned '0': /usr/bin/cmake /home/jcube05/ros2_ws/mapping-25-26/src/my_lidar_pkg -DCMAKE_INSTALL_PREFIX=/home/jcube05/ros2_ws/mapping-25-26/install
+Invoking command in '/home/jcube05/ros2_ws/mapping-25-26/build/my_lidar_pkg': /usr/bin/cmake --build /home/jcube05/ros2_ws/mapping-25-26/build/my_lidar_pkg -- -j16 -l16
+Invoked command in '/home/jcube05/ros2_ws/mapping-25-26/build/my_lidar_pkg' returned '0': /usr/bin/cmake --build /home/jcube05/ros2_ws/mapping-25-26/build/my_lidar_pkg -- -j16 -l16
+Invoking command in '/home/jcube05/ros2_ws/mapping-25-26/build/my_lidar_pkg': /usr/bin/cmake --install /home/jcube05/ros2_ws/mapping-25-26/build/my_lidar_pkg
+Invoked command in '/home/jcube05/ros2_ws/mapping-25-26/build/my_lidar_pkg' returned '0': /usr/bin/cmake --install /home/jcube05/ros2_ws/mapping-25-26/build/my_lidar_pkg

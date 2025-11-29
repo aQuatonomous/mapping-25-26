@@ -1,0 +1,31 @@
+[0.227s] Invoking command in '/home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_sdk': /usr/bin/cmake /home/jcube05/ros2_ws/mapping-25-26/src/unilidar_sdk/unitree_lidar_sdk -DCMAKE_INSTALL_PREFIX=/home/jcube05/ros2_ws/mapping-25-26/install
+[0.714s] -- The C compiler identification is GNU 11.4.0
+[2.540s] -- The CXX compiler identification is GNU 11.4.0
+[3.925s] -- Detecting C compiler ABI info
+[4.440s] -- Detecting C compiler ABI info - done
+[4.458s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.459s] -- Detecting C compile features
+[4.460s] -- Detecting C compile features - done
+[4.469s] -- Detecting CXX compiler ABI info
+[5.024s] -- Detecting CXX compiler ABI info - done
+[5.049s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.049s] -- Detecting CXX compile features
+[5.051s] -- Detecting CXX compile features - done
+[5.055s] -- Configuring done
+[5.080s] -- Generating done
+[5.082s] -- Build files have been written to: /home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_sdk
+[5.094s] Invoked command in '/home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_sdk' returned '0': /usr/bin/cmake /home/jcube05/ros2_ws/mapping-25-26/src/unilidar_sdk/unitree_lidar_sdk -DCMAKE_INSTALL_PREFIX=/home/jcube05/ros2_ws/mapping-25-26/install
+[5.099s] Invoking command in '/home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_sdk': /usr/bin/cmake --build /home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_sdk -- -j16 -l16
+[5.232s] [ 12%] [32mBuilding CXX object CMakeFiles/example_lidar_udp.dir/examples/example_lidar_udp.cpp.o[0m
+[5.232s] [ 37%] [32mBuilding CXX object CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.o[0m
+[5.233s] [ 50%] [32mBuilding CXX object CMakeFiles/unilidar_publisher_udp.dir/examples/unilidar_publisher_udp.cpp.o[0m
+[5.233s] [ 50%] [32mBuilding CXX object CMakeFiles/unilidar_subscriber_udp.dir/examples/unilidar_subscriber_udp.cpp.o[0m
+[6.562s] [ 62%] [32m[1mLinking CXX executable /home/jcube05/ros2_ws/mapping-25-26/src/unilidar_sdk/unitree_lidar_sdk/bin/unilidar_subscriber_udp[0m
+[6.587s] [ 75%] [32m[1mLinking CXX executable /home/jcube05/ros2_ws/mapping-25-26/src/unilidar_sdk/unitree_lidar_sdk/bin/example_lidar[0m
+[6.624s] [ 87%] [32m[1mLinking CXX executable /home/jcube05/ros2_ws/mapping-25-26/src/unilidar_sdk/unitree_lidar_sdk/bin/example_lidar_udp[0m
+[6.733s] [100%] [32m[1mLinking CXX executable /home/jcube05/ros2_ws/mapping-25-26/src/unilidar_sdk/unitree_lidar_sdk/bin/unilidar_publisher_udp[0m
+[7.181s] [100%] Built target unilidar_subscriber_udp
+[7.239s] [100%] Built target example_lidar
+[7.271s] [100%] Built target example_lidar_udp
+[7.329s] [100%] Built target unilidar_publisher_udp
+[7.362s] Invoked command in '/home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_sdk' returned '0': /usr/bin/cmake --build /home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_sdk -- -j16 -l16

@@ -1,0 +1,4 @@
+Invoking command in '/home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_sdk': /usr/bin/cmake /home/jcube05/ros2_ws/mapping-25-26/src/unilidar_sdk/unitree_lidar_sdk -DCMAKE_INSTALL_PREFIX=/home/jcube05/ros2_ws/mapping-25-26/install
+Invoked command in '/home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_sdk' returned '0': /usr/bin/cmake /home/jcube05/ros2_ws/mapping-25-26/src/unilidar_sdk/unitree_lidar_sdk -DCMAKE_INSTALL_PREFIX=/home/jcube05/ros2_ws/mapping-25-26/install
+Invoking command in '/home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_sdk': /usr/bin/cmake --build /home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_sdk -- -j16 -l16
+Invoked command in '/home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_sdk' returned '0': /usr/bin/cmake --build /home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_sdk -- -j16 -l16

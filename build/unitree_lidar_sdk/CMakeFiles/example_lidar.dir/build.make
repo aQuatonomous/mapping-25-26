@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jacob/ros2_ws/src/unilidar_sdk/unitree_lidar_sdk
+CMAKE_SOURCE_DIR = /home/jcube05/ros2_ws/mapping-25-26/src/unilidar_sdk/unitree_lidar_sdk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jacob/ros2_ws/build/unitree_lidar_sdk
+CMAKE_BINARY_DIR = /home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_sdk
 
 # Include any dependencies generated for this target.
 include CMakeFiles/example_lidar.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/example_lidar.dir/progress.make
 include CMakeFiles/example_lidar.dir/flags.make
 
 CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.o: CMakeFiles/example_lidar.dir/flags.make
-CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.o: /home/jacob/ros2_ws/src/unilidar_sdk/unitree_lidar_sdk/examples/example_lidar.cpp
+CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.o: /home/jcube05/ros2_ws/mapping-25-26/src/unilidar_sdk/unitree_lidar_sdk/examples/example_lidar.cpp
 CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.o: CMakeFiles/example_lidar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jacob/ros2_ws/build/unitree_lidar_sdk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.o -MF CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.o.d -o CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.o -c /home/jacob/ros2_ws/src/unilidar_sdk/unitree_lidar_sdk/examples/example_lidar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_sdk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.o -MF CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.o.d -o CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.o -c /home/jcube05/ros2_ws/mapping-25-26/src/unilidar_sdk/unitree_lidar_sdk/examples/example_lidar.cpp
 
 CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacob/ros2_ws/src/unilidar_sdk/unitree_lidar_sdk/examples/example_lidar.cpp > CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jcube05/ros2_ws/mapping-25-26/src/unilidar_sdk/unitree_lidar_sdk/examples/example_lidar.cpp > CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.i
 
 CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacob/ros2_ws/src/unilidar_sdk/unitree_lidar_sdk/examples/example_lidar.cpp -o CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jcube05/ros2_ws/mapping-25-26/src/unilidar_sdk/unitree_lidar_sdk/examples/example_lidar.cpp -o CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.s
 
 # Object files for target example_lidar
 example_lidar_OBJECTS = \
@@ -90,14 +90,14 @@ example_lidar_OBJECTS = \
 # External object files for target example_lidar
 example_lidar_EXTERNAL_OBJECTS =
 
-/home/jacob/ros2_ws/src/unilidar_sdk/unitree_lidar_sdk/bin/example_lidar: CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.o
-/home/jacob/ros2_ws/src/unilidar_sdk/unitree_lidar_sdk/bin/example_lidar: CMakeFiles/example_lidar.dir/build.make
-/home/jacob/ros2_ws/src/unilidar_sdk/unitree_lidar_sdk/bin/example_lidar: CMakeFiles/example_lidar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jacob/ros2_ws/build/unitree_lidar_sdk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/jacob/ros2_ws/src/unilidar_sdk/unitree_lidar_sdk/bin/example_lidar"
+/home/jcube05/ros2_ws/mapping-25-26/src/unilidar_sdk/unitree_lidar_sdk/bin/example_lidar: CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.o
+/home/jcube05/ros2_ws/mapping-25-26/src/unilidar_sdk/unitree_lidar_sdk/bin/example_lidar: CMakeFiles/example_lidar.dir/build.make
+/home/jcube05/ros2_ws/mapping-25-26/src/unilidar_sdk/unitree_lidar_sdk/bin/example_lidar: CMakeFiles/example_lidar.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_sdk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/jcube05/ros2_ws/mapping-25-26/src/unilidar_sdk/unitree_lidar_sdk/bin/example_lidar"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/example_lidar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/example_lidar.dir/build: /home/jacob/ros2_ws/src/unilidar_sdk/unitree_lidar_sdk/bin/example_lidar
+CMakeFiles/example_lidar.dir/build: /home/jcube05/ros2_ws/mapping-25-26/src/unilidar_sdk/unitree_lidar_sdk/bin/example_lidar
 .PHONY : CMakeFiles/example_lidar.dir/build
 
 CMakeFiles/example_lidar.dir/clean:
@@ -105,6 +105,6 @@ CMakeFiles/example_lidar.dir/clean:
 .PHONY : CMakeFiles/example_lidar.dir/clean
 
 CMakeFiles/example_lidar.dir/depend:
-	cd /home/jacob/ros2_ws/build/unitree_lidar_sdk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jacob/ros2_ws/src/unilidar_sdk/unitree_lidar_sdk /home/jacob/ros2_ws/src/unilidar_sdk/unitree_lidar_sdk /home/jacob/ros2_ws/build/unitree_lidar_sdk /home/jacob/ros2_ws/build/unitree_lidar_sdk /home/jacob/ros2_ws/build/unitree_lidar_sdk/CMakeFiles/example_lidar.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_sdk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jcube05/ros2_ws/mapping-25-26/src/unilidar_sdk/unitree_lidar_sdk /home/jcube05/ros2_ws/mapping-25-26/src/unilidar_sdk/unitree_lidar_sdk /home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_sdk /home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_sdk /home/jcube05/ros2_ws/mapping-25-26/build/unitree_lidar_sdk/CMakeFiles/example_lidar.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/example_lidar.dir/depend
 

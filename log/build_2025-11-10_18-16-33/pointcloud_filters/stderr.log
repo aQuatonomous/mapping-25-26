@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:19 (install):
-  install PROGRAMS given RENAME option with more than one file.
-
-[0m
-gmake: *** [Makefile:747: cmake_check_build_system] Error 1

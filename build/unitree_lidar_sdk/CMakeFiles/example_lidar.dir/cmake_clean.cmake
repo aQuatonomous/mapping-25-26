@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jacob/ros2_ws/src/unilidar_sdk/unitree_lidar_sdk/bin/example_lidar"
-  "/home/jacob/ros2_ws/src/unilidar_sdk/unitree_lidar_sdk/bin/example_lidar.pdb"
+  "/home/jcube05/ros2_ws/mapping-25-26/src/unilidar_sdk/unitree_lidar_sdk/bin/example_lidar"
+  "/home/jcube05/ros2_ws/mapping-25-26/src/unilidar_sdk/unitree_lidar_sdk/bin/example_lidar.pdb"
   "CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.o"
   "CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.o.d"
 )
